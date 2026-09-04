@@ -1,0 +1,200 @@
+[2m15:25:33[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\Hp\Desktop\Новая папка (6)\src\pages\Direktor.jsx: Unexpected token (382:24)
+
+[0m [90m 380 |[31m [90m/*[31m
+ [90m 381 |[31m [90m        {({ currentPage }) => (pages[currentPage] || renderDashboard)()}[31m
+[31m[1m>[22m[31m[90m 382 |[31m [90m            {/* Toast */[31m}
+ [90m     |[31m                         [31m[1m^[22m[31m
+ [90m 383 |[31m             {toast [33m&&[31m [33m<[31m[33mdiv[31m className[33m=[31m{[32m`toast toast-${toast.type}`[31m}[33m>[31m{toast[33m.[31mmsg}[33m<[31m[33m/[31m[33mdiv[31m[33m>[31m}
+ [90m 384 |[31m             {[90m/* Add Teacher Payment Modal */[31m}
+ [90m 385 |[31m             {modal [33m===[31m [32m'addTeacherPayment'[31m [33m&&[31m [33m<[31m[33mModal[31m onClose[33m=[31m{() [33m=>[31m setModal([36mnull[31m)} title[33m=[31m[32m"O'qituvchiga to'lov qo'shish"[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/Hp/Desktop/Новая папка (6)/src/pages/Direktor.jsx[39m:382:24
+[33m  380|  /*
+  381|          {({ currentPage }) => (pages[currentPage] || renderDashboard)()}
+  382|              {/* Toast */}
+     |                          ^
+  383|              {toast && <div className={`toast toast-${toast.type}`}>{toast.msg}</div>}
+  384|              {/* Add Teacher Payment Modal */}[39m
+      at constructor (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:369:19)
+      at JSXParserMixin.raise (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:6620:19)
+      at JSXParserMixin.unexpected (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:6640:16)
+      at JSXParserMixin.parseExprAtom (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:11468:22)
+      at JSXParserMixin.parseExprAtom (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:4780:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:11102:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:11087:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:11067:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10920:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10925:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10902:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10852:21)
+      at JSXParserMixin.parseExpressionBase (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10805:23)
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10801:39
+      at JSXParserMixin.allowInAnd (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12450:16)
+      at JSXParserMixin.parseExpression (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10801:17)
+      at JSXParserMixin.parseStatementContent (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12924:23)
+      at JSXParserMixin.parseStatementLike (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12796:17)
+      at JSXParserMixin.parseModuleItem (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12773:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:13345:36)
+      at JSXParserMixin.parseBlockBody (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:13338:10)
+      at JSXParserMixin.parseProgram (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12651:10)
+      at JSXParserMixin.parseTopLevel (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12641:25)
+      at JSXParserMixin.parse (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:14517:25)
+      at parse (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:14551:38)
+      at parser (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:261:32)
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:223:11)
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:189:28
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:113:33
+      at step (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:287:14)
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:223:11)
+[2m15:25:33[22m [31m[1m[vite][22m[39m Pre-transform error: C:\Users\Hp\Desktop\Новая папка (6)\src\pages\Direktor.jsx: Unexpected token (382:24)
+
+[0m [90m 380 |[39m [90m/*[39m
+ [90m 381 |[39m [90m        {({ currentPage }) => (pages[currentPage] || renderDashboard)()}[39m
+[31m[1m>[22m[39m[90m 382 |[39m [90m            {/* Toast */[39m}
+ [90m     |[39m                         [31m[1m^[22m[39m
+ [90m 383 |[39m             {toast [33m&&[39m [33m<[39m[33mdiv[39m className[33m=[39m{[32m`toast toast-${toast.type}`[39m}[33m>[39m{toast[33m.[39mmsg}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m}
+ [90m 384 |[39m             {[90m/* Add Teacher Payment Modal */[39m}
+ [90m 385 |[39m             {modal [33m===[39m [32m'addTeacherPayment'[39m [33m&&[39m [33m<[39m[33mModal[39m onClose[33m=[39m{() [33m=>[39m setModal([36mnull[39m)} title[33m=[39m[32m"O'qituvchiga to'lov qo'shish"[39m[33m>[39m[0m
+[2m15:25:33[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\Hp\Desktop\Новая папка (6)\src\pages\Direktor.jsx: Unexpected token (382:24)
+
+[0m [90m 380 |[31m [90m/*[31m
+ [90m 381 |[31m [90m        {({ currentPage }) => (pages[currentPage] || renderDashboard)()}[31m
+[31m[1m>[22m[31m[90m 382 |[31m [90m            {/* Toast */[31m}
+ [90m     |[31m                         [31m[1m^[22m[31m
+ [90m 383 |[31m             {toast [33m&&[31m [33m<[31m[33mdiv[31m className[33m=[31m{[32m`toast toast-${toast.type}`[31m}[33m>[31m{toast[33m.[31mmsg}[33m<[31m[33m/[31m[33mdiv[31m[33m>[31m}
+ [90m 384 |[31m             {[90m/* Add Teacher Payment Modal */[31m}
+ [90m 385 |[31m             {modal [33m===[31m [32m'addTeacherPayment'[31m [33m&&[31m [33m<[31m[33mModal[31m onClose[33m=[31m{() [33m=>[31m setModal([36mnull[31m)} title[33m=[31m[32m"O'qituvchiga to'lov qo'shish"[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/Hp/Desktop/Новая папка (6)/src/pages/Direktor.jsx[39m:382:24
+[33m  380|  /*
+  381|          {({ currentPage }) => (pages[currentPage] || renderDashboard)()}
+  382|              {/* Toast */}
+     |                          ^
+  383|              {toast && <div className={`toast toast-${toast.type}`}>{toast.msg}</div>}
+  384|              {/* Add Teacher Payment Modal */}[39m
+      at constructor (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:369:19)
+      at JSXParserMixin.raise (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:6620:19)
+      at JSXParserMixin.unexpected (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:6640:16)
+      at JSXParserMixin.parseExprAtom (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:11468:22)
+      at JSXParserMixin.parseExprAtom (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:4780:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:11102:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:11087:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:11067:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10920:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10925:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10902:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10852:21)
+      at JSXParserMixin.parseExpressionBase (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10805:23)
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10801:39
+      at JSXParserMixin.allowInAnd (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12450:16)
+      at JSXParserMixin.parseExpression (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10801:17)
+      at JSXParserMixin.parseStatementContent (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12924:23)
+      at JSXParserMixin.parseStatementLike (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12796:17)
+      at JSXParserMixin.parseModuleItem (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12773:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:13345:36)
+      at JSXParserMixin.parseBlockBody (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:13338:10)
+      at JSXParserMixin.parseProgram (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12651:10)
+      at JSXParserMixin.parseTopLevel (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12641:25)
+      at JSXParserMixin.parse (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:14517:25)
+      at parse (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:14551:38)
+      at parser (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:261:32)
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:223:11)
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:189:28
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:113:33
+      at step (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:287:14)
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:223:11)
+[2m15:30:07[22m [31m[1m[vite][22m[39m Pre-transform error: C:\Users\Hp\Desktop\Новая папка (6)\src\pages\Direktor.jsx: Unexpected token (570:9)
+
+[0m [90m 568 |[39m                 [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 569 |[39m             [33m<[39m[33m/[39m[33mModal[39m[33m>[39m}
+[31m[1m>[22m[39m[90m 570 |[39m         [33m<[39m[33m/[39m[33mLayout[39m[33m>[39m
+ [90m     |[39m          [31m[1m^[22m[39m
+ [90m 571 |[39m     )
+ [90m 572 |[39m }
+ [90m 573 |[39m[0m
+[2m15:30:07[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\Hp\Desktop\Новая папка (6)\src\pages\Direktor.jsx: Unexpected token (570:9)
+
+[0m [90m 568 |[31m                 [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 569 |[31m             [33m<[31m[33m/[31m[33mModal[31m[33m>[31m}
+[31m[1m>[22m[31m[90m 570 |[31m         [33m<[31m[33m/[31m[33mLayout[31m[33m>[31m
+ [90m     |[31m          [31m[1m^[22m[31m
+ [90m 571 |[31m     )
+ [90m 572 |[31m }
+ [90m 573 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/Hp/Desktop/Новая папка (6)/src/pages/Direktor.jsx[39m:570:9
+[33m  568|                  </div>
+  569|              </Modal>}
+  570|          </Layout>
+     |           ^
+  571|      )
+  572|  }[39m
+      at constructor (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:369:19)
+      at JSXParserMixin.raise (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:6620:19)
+      at JSXParserMixin.unexpected (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:6640:16)
+      at JSXParserMixin.jsxParseIdentifier (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:4585:12)
+      at JSXParserMixin.jsxParseNamespacedName (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:4592:23)
+      at JSXParserMixin.jsxParseElementName (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:4601:21)
+      at JSXParserMixin.jsxParseOpeningElementAt (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:4677:22)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:4702:33)
+      at JSXParserMixin.jsxParseElement (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:4765:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:4778:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:11102:23)
+      at JSXParserMixin.parseUpdate (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:11087:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:11067:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10920:61)
+      at JSXParserMixin.parseExprOps (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10925:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10902:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10852:21)
+      at JSXParserMixin.parseExpressionBase (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10805:23)
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10801:39
+      at JSXParserMixin.allowInAnd (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12450:16)
+      at JSXParserMixin.parseExpression (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:10801:17)
+      at JSXParserMixin.parseStatementContent (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12924:23)
+      at JSXParserMixin.parseStatementLike (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12796:17)
+      at JSXParserMixin.parseModuleItem (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12773:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:13345:36)
+      at JSXParserMixin.parseBlockBody (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:13338:10)
+      at JSXParserMixin.parseProgram (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12651:10)
+      at JSXParserMixin.parseTopLevel (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:12641:25)
+      at JSXParserMixin.parse (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:14517:25)
+      at parse (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\parser\lib\index.js:14551:38)
+      at parser (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:261:32)
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:223:11)
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:189:28
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:113:33
+      at step (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:287:14)
+      at C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\Hp\Desktop\Новая папка (6)\node_modules\gensync\index.js:223:11)

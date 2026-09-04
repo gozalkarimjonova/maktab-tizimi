@@ -1,0 +1,1775 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Abdullayev Sardor",
+      "phone": "+998901111111",
+      "password": "$2a$08$Rgc6IS5Kx2aQcfnZPU1KK.ozP4AzG5C.8axkpRQ96jkFVoz70Nd1K",
+      "role": "direktor",
+      "avatar": "AS",
+      "coins": 0
+    },
+    {
+      "id": "u2",
+      "name": "Karimova Nilufar",
+      "phone": "+998902222222",
+      "password": "$2a$08$DcONX5hWW6NES4xsv8VvPOBezbS9qIYHpt4lfXq4M1Px771s0hT0q",
+      "role": "oqituvchi",
+      "avatar": "KN",
+      "subject": "Matematika",
+      "coins": 0
+    },
+    {
+      "id": "u3",
+      "name": "Abdullayev Sardor",
+      "phone": "+998903333333",
+      "password": "$2a$08$ZAcVvDQH7MZ6gqmOs2EmPeMMxMSvTniCvDzXv8hcs6KZlDPshp2P6",
+      "role": "oquvchi",
+      "avatar": "AS",
+      "groupId": "g1",
+      "className": "5-sinf",
+      "coins": 54
+    },
+    {
+      "id": "u4",
+      "name": "Toshmatov Admin",
+      "phone": "+998904444444",
+      "password": "$2a$08$ToWo7hmWaM8.6x7P8eiIYeIGFNX1kGgCn02vHZpklUqIP.c2YJUHm",
+      "role": "admin",
+      "avatar": "TA",
+      "coins": 0
+    },
+    {
+      "id": "u5",
+      "name": "Ergasheva Malika",
+      "phone": "+998902222223",
+      "password": "$2a$08$fkYhKISQxfnJXWC.78KDw.hgZrDYyDPnL6uFhAeP.NdUMf39agxCG",
+      "role": "oqituvchi",
+      "avatar": "EM",
+      "subject": "Ona tili",
+      "coins": 0
+    },
+    {
+      "id": "u6",
+      "name": "Toshmatov Temur",
+      "phone": "+998903333334",
+      "password": "$2a$08$.V2nW5e8jhJ.zQkek1FEeeiNKibtDXM/Dh90B9kkMHLiEwMmYoz52",
+      "role": "oquvchi",
+      "avatar": "TT",
+      "groupId": "g1",
+      "className": "5-sinf",
+      "coins": 31
+    },
+    {
+      "id": "u7",
+      "name": "Karimova Nilufar",
+      "phone": "+998903333335",
+      "password": "$2a$08$GMTkm0g7NLYle0xskfgYMOsZAxDJQBuaJuVQfst2w6lLFo.RlGNq.",
+      "role": "oquvchi",
+      "avatar": "KN",
+      "groupId": "g1",
+      "className": "5-sinf",
+      "coins": 76
+    },
+    {
+      "id": "u8",
+      "name": "Ergashev Jasur",
+      "phone": "+998903333336",
+      "password": "$2a$08$7b4aioRZG0zVVgETPyXU9uUlydKsne7/YmFUfnzQB/SRkMVnEVtDK",
+      "role": "oquvchi",
+      "avatar": "EJ",
+      "groupId": "g2",
+      "className": "6-sinf",
+      "coins": 21
+    },
+    {
+      "id": "u9",
+      "name": "Karimova Sabohat",
+      "phone": "+998902222224",
+      "password": "$2a$08$Xks4cO1yFT0Lkt4Ps8tqZ.KlKdR1xiwfjranUZOOLJW1cZGiXf1hS",
+      "role": "oqituvchi",
+      "avatar": "KS",
+      "subject": "Tarix",
+      "coins": 0
+    },
+    {
+      "id": "u10",
+      "name": "Rahimov Bobur",
+      "phone": "+998903333337",
+      "password": "$2a$08$JUYpP3Adn.Rs/x/J26GWx.3DpzWsELPKYRutR7HZGvey2md.1rUKK",
+      "role": "oquvchi",
+      "avatar": "RB",
+      "groupId": "g2",
+      "className": "6-sinf",
+      "coins": 40
+    },
+    {
+      "id": "u11",
+      "name": "Nazarova Dildora",
+      "phone": "+998903333338",
+      "password": "$2a$08$jhUvXjEu6GegYCxTldDHO.vjSOnCtnsKXfQ.V/20ScdLoLmjlEA4W",
+      "role": "oquvchi",
+      "avatar": "ND",
+      "groupId": "g2",
+      "className": "6-sinf",
+      "coins": 35
+    },
+    {
+      "id": "u12",
+      "name": "Mirzoev Sardor",
+      "phone": "+998903333339",
+      "password": "$2a$08$wcRBUSPOwov0cm1m66yJy.CeENP4BmextUMl.t3ZDD4wFdBOgVw7S",
+      "role": "oquvchi",
+      "avatar": "MS",
+      "groupId": "g2",
+      "className": "6-sinf",
+      "coins": 45
+    },
+    {
+      "id": "u13",
+      "name": "Aliyeva Malika",
+      "phone": "+998903333340",
+      "password": "$2a$08$dHZAjF/v5l054.1eV3iIkeJZIunvTEPj58Mgl/Ox//P6bq/EX8MJG",
+      "role": "oquvchi",
+      "avatar": "AM",
+      "groupId": "g2",
+      "className": "6-sinf",
+      "coins": 60
+    },
+    {
+      "id": "u14",
+      "name": "Rustamov Oybek",
+      "phone": "+998903333341",
+      "password": "$2a$08$te0oQiHcE.78NFZ.OfGGzOuT6P0elt1v7/7TiZxFydKjjXIzBsjam",
+      "role": "oquvchi",
+      "avatar": "RO",
+      "groupId": "g2",
+      "className": "6-sinf",
+      "coins": 25
+    },
+    {
+      "id": "u15",
+      "name": "Xolmatov Otabek",
+      "phone": "+998903333342",
+      "password": "$2a$08$soMvrRToKcWaZa38jbpJpOuzWNBrzQhQ8EhJrlqbeVTSF1QA//eUK",
+      "role": "oquvchi",
+      "avatar": "XO",
+      "groupId": "g1",
+      "className": "5-sinf",
+      "coins": 55
+    },
+    {
+      "id": "u16",
+      "name": "Jumaev Baxtiyor",
+      "phone": "+998903333343",
+      "password": "$2a$08$cNcwn.ScfJc0astTsTUoDOcorTwGG5ZZhiTpimz7AuS2AasDf2RsC",
+      "role": "oquvchi",
+      "avatar": "JB",
+      "groupId": "g1",
+      "className": "5-sinf",
+      "coins": 40
+    },
+    {
+      "id": "u17",
+      "name": "Ismoilov Akbar",
+      "phone": "+998903333344",
+      "password": "$2a$08$KthfIkchqimhuh9SIoUmWerFaqEKQefOk4B/SPg1.Xk/Eb3NsuvT2",
+      "role": "oquvchi",
+      "avatar": "IA",
+      "groupId": "g1",
+      "className": "5-sinf",
+      "coins": 30
+    },
+    {
+      "id": "u18",
+      "name": "Kamoliddinov Shoxruh",
+      "phone": "+998903333345",
+      "password": "$2a$08$Go6p9dufQ5Hs8GiXidwlZuidlwyQwnJHyxRWgjJJ7u7ndn33aKF6q",
+      "role": "oquvchi",
+      "avatar": "KS",
+      "groupId": "g2",
+      "className": "6-sinf",
+      "coins": 50
+    },
+    {
+      "id": "u19",
+      "name": "Toirov Mironshoh",
+      "phone": "+998903333346",
+      "password": "$2a$08$5wE8TnAws5f89dMyQVYGIeBXFzVVGkZjMUEMAlNYc.Vs.frtC.LWy",
+      "role": "oquvchi",
+      "avatar": "TM",
+      "groupId": "g1",
+      "className": "5-sinf",
+      "coins": 35
+    }
+  ],
+  "groups": [
+    {
+      "id": "g1",
+      "name": "5-B guruhi",
+      "className": "5-sinf",
+      "teacherId": "u2",
+      "schedule": "Dushanba, Chorshanba 15:00",
+      "room": "A3"
+    },
+    {
+      "id": "g2",
+      "name": "6-G guruhi",
+      "className": "6-sinf",
+      "teacherId": "u2",
+      "schedule": "Seshanba, Juma 15:10",
+      "room": "A4"
+    }
+  ],
+  "topics": [
+    {
+      "id": "t1",
+      "groupId": "g1",
+      "title": "Tenglamalar asoslari",
+      "order": 1,
+      "status": "completed",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "t2",
+      "groupId": "g1",
+      "title": "Kvadrat tenglamalar",
+      "order": 2,
+      "status": "completed",
+      "date": "2026-08-22"
+    },
+    {
+      "id": "t3",
+      "groupId": "g1",
+      "title": "Geometriya: Burchaklar",
+      "order": 3,
+      "status": "completed",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "t4",
+      "groupId": "g1",
+      "title": "Geometriya: Doiralar",
+      "order": 4,
+      "status": "active",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "t5",
+      "groupId": "g1",
+      "title": "Fraksiyalar",
+      "order": 5,
+      "status": "upcoming",
+      "date": ""
+    },
+    {
+      "id": "t6",
+      "groupId": "g1",
+      "title": "Ondlik kasrlar",
+      "order": 6,
+      "status": "upcoming",
+      "date": ""
+    },
+    {
+      "id": "t7",
+      "groupId": "g2",
+      "title": "Algebra: Tenglamalar",
+      "order": 1,
+      "status": "completed",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "t8",
+      "groupId": "g2",
+      "title": "Algebra: tenglamalar tizimi",
+      "order": 2,
+      "status": "completed",
+      "date": "2026-08-21"
+    },
+    {
+      "id": "t9",
+      "groupId": "g2",
+      "title": "Geometriya: Uchburchaklar",
+      "order": 3,
+      "status": "completed",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "t10",
+      "groupId": "g2",
+      "title": "Geometriya: Chiziqli tenglamalar",
+      "order": 4,
+      "status": "active",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "t11",
+      "groupId": "g2",
+      "title": "Sonlar va operatsiyalar",
+      "order": 5,
+      "status": "upcoming",
+      "date": ""
+    },
+    {
+      "id": "t12",
+      "groupId": "g2",
+      "title": "Mantiqiy masalalar",
+      "order": 6,
+      "status": "upcoming",
+      "date": ""
+    }
+  ],
+  "attendance": {
+    "2026-08-03": {
+      "u3": "present",
+      "u6": "present",
+      "u7": "present"
+    },
+    "2026-08-31": {
+      "u8": "present"
+    }
+  },
+  "grades": [
+    {
+      "id": "g1788366789876h0jw",
+      "studentId": "u3",
+      "subject": "Matematika",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g17883667898761p0i",
+      "studentId": "u3",
+      "subject": "Ona tili",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876n36o",
+      "studentId": "u3",
+      "subject": "Tarix",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876mjvl",
+      "studentId": "u3",
+      "subject": "Fizika",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876h2dz",
+      "studentId": "u3",
+      "subject": "Ingliz tili",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g17883667898765i6i",
+      "studentId": "u6",
+      "subject": "Matematika",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876yla4",
+      "studentId": "u6",
+      "subject": "Ona tili",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876hq4z",
+      "studentId": "u6",
+      "subject": "Tarix",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g17883667898762ha1",
+      "studentId": "u6",
+      "subject": "Fizika",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876mbv4",
+      "studentId": "u6",
+      "subject": "Ingliz tili",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876kceb",
+      "studentId": "u7",
+      "subject": "Matematika",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876bvpg",
+      "studentId": "u7",
+      "subject": "Ona tili",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876ifyo",
+      "studentId": "u7",
+      "subject": "Tarix",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g17883667898764cx3",
+      "studentId": "u7",
+      "subject": "Fizika",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g17883667898765ypk",
+      "studentId": "u7",
+      "subject": "Ingliz tili",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876tcpb",
+      "studentId": "u8",
+      "subject": "Matematika",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g17883667898765hvq",
+      "studentId": "u8",
+      "subject": "Ona tili",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876vnot",
+      "studentId": "u8",
+      "subject": "Tarix",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876r9lc",
+      "studentId": "u8",
+      "subject": "Fizika",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876yup9",
+      "studentId": "u8",
+      "subject": "Ingliz tili",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876t4cg",
+      "studentId": "u10",
+      "subject": "Matematika",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876a310",
+      "studentId": "u10",
+      "subject": "Ona tili",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g178836678987612ky",
+      "studentId": "u10",
+      "subject": "Tarix",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876ctej",
+      "studentId": "u10",
+      "subject": "Fizika",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g17883667898760mc8",
+      "studentId": "u10",
+      "subject": "Ingliz tili",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876qsm5",
+      "studentId": "u11",
+      "subject": "Matematika",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876k5tb",
+      "studentId": "u11",
+      "subject": "Ona tili",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876znll",
+      "studentId": "u11",
+      "subject": "Tarix",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876x8u0",
+      "studentId": "u11",
+      "subject": "Fizika",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g17883667898761cl7",
+      "studentId": "u11",
+      "subject": "Ingliz tili",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876djis",
+      "studentId": "u12",
+      "subject": "Matematika",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876cewp",
+      "studentId": "u12",
+      "subject": "Ona tili",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876xdcq",
+      "studentId": "u12",
+      "subject": "Tarix",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g17883667898768ugo",
+      "studentId": "u12",
+      "subject": "Fizika",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876jnah",
+      "studentId": "u12",
+      "subject": "Ingliz tili",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g178836678987635wx",
+      "studentId": "u13",
+      "subject": "Matematika",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876sd3c",
+      "studentId": "u13",
+      "subject": "Ona tili",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876xhnc",
+      "studentId": "u13",
+      "subject": "Tarix",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876cnii",
+      "studentId": "u13",
+      "subject": "Fizika",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876g5jc",
+      "studentId": "u13",
+      "subject": "Ingliz tili",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876i199",
+      "studentId": "u14",
+      "subject": "Matematika",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876owsk",
+      "studentId": "u14",
+      "subject": "Ona tili",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876kev3",
+      "studentId": "u14",
+      "subject": "Tarix",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876tvam",
+      "studentId": "u14",
+      "subject": "Fizika",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876yxhf",
+      "studentId": "u14",
+      "subject": "Ingliz tili",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876k7nm",
+      "studentId": "u15",
+      "subject": "Matematika",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876069f",
+      "studentId": "u15",
+      "subject": "Ona tili",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g178836678987698n9",
+      "studentId": "u15",
+      "subject": "Tarix",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876jqij",
+      "studentId": "u15",
+      "subject": "Fizika",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g17883667898768naz",
+      "studentId": "u15",
+      "subject": "Ingliz tili",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876bxwq",
+      "studentId": "u16",
+      "subject": "Matematika",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876hqyn",
+      "studentId": "u16",
+      "subject": "Ona tili",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876qgmr",
+      "studentId": "u16",
+      "subject": "Tarix",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g17883667898763c52",
+      "studentId": "u16",
+      "subject": "Fizika",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g17883667898765dtw",
+      "studentId": "u16",
+      "subject": "Ingliz tili",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876l9kz",
+      "studentId": "u17",
+      "subject": "Matematika",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g178836678987633ln",
+      "studentId": "u17",
+      "subject": "Ona tili",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g17883667898762pxq",
+      "studentId": "u17",
+      "subject": "Tarix",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g17883667898768p2f",
+      "studentId": "u17",
+      "subject": "Fizika",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g178836678987685e9",
+      "studentId": "u17",
+      "subject": "Ingliz tili",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876qgoh",
+      "studentId": "u18",
+      "subject": "Matematika",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876u45c",
+      "studentId": "u18",
+      "subject": "Ona tili",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g17883667898762xdo",
+      "studentId": "u18",
+      "subject": "Tarix",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g17883667898760g8q",
+      "studentId": "u18",
+      "subject": "Fizika",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876ieaa",
+      "studentId": "u18",
+      "subject": "Ingliz tili",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876uliw",
+      "studentId": "u19",
+      "subject": "Matematika",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876nmg9",
+      "studentId": "u19",
+      "subject": "Ona tili",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876eov3",
+      "studentId": "u19",
+      "subject": "Tarix",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876ix72",
+      "studentId": "u19",
+      "subject": "Fizika",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "g1788366789876h2w0",
+      "studentId": "u19",
+      "subject": "Ingliz tili",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-02"
+    }
+  ],
+  "coinHistory": [
+    {
+      "id": "ch1788367317863k14f",
+      "userId": "u3",
+      "amount": 1,
+      "reason": "Davomat: 2026-08-03",
+      "date": "2026-08-03",
+      "type": "earn"
+    },
+    {
+      "id": "ch1788367327341fujm",
+      "userId": "u3",
+      "amount": 1,
+      "reason": "Davomat: 2026-08-03",
+      "date": "2026-08-03",
+      "type": "earn"
+    },
+    {
+      "id": "ch17883673294908pzo",
+      "userId": "u6",
+      "amount": 1,
+      "reason": "Davomat: 2026-08-03",
+      "date": "2026-08-03",
+      "type": "earn"
+    },
+    {
+      "id": "ch1788367332043ie7g",
+      "userId": "u7",
+      "amount": 1,
+      "reason": "Davomat: 2026-08-03",
+      "date": "2026-08-03",
+      "type": "earn"
+    },
+    {
+      "id": "ch1788530821056t",
+      "userId": "u2",
+      "amount": 2,
+      "reason": "Abdullayev Sardor ga berildi: Vazifa uchun",
+      "date": "2026-09-04",
+      "type": "give",
+      "toStudentId": "u3"
+    },
+    {
+      "id": "ch1788530821056s",
+      "userId": "u3",
+      "amount": 2,
+      "reason": "Karimova Nilufar dan: Vazifa uchun",
+      "date": "2026-09-04",
+      "type": "earn",
+      "fromTeacherId": "u2"
+    },
+    {
+      "id": "ch1788530894442mrvy",
+      "userId": "u8",
+      "amount": 1,
+      "reason": "Davomat: 2026-08-31",
+      "date": "2026-08-31",
+      "type": "earn"
+    }
+  ],
+  "shopItems": [
+    {
+      "id": "si1",
+      "name": "Sun Glass",
+      "desc": "Quyoshdan himoya ko'zoynak",
+      "icon": "🕶️",
+      "iconBg": "linear-gradient(135deg,#f0f0f0,#e8e8e8)",
+      "price": 199,
+      "stock": 12
+    },
+    {
+      "id": "si2",
+      "name": "Phone Stand",
+      "desc": "Telefon tayanchi",
+      "icon": "📱",
+      "iconBg": "linear-gradient(135deg,#f0f0f0,#e8e8e8)",
+      "price": 199,
+      "stock": 11
+    },
+    {
+      "id": "si3",
+      "name": "Wireless Mouse",
+      "desc": "Simlarsiz sichqoncha",
+      "icon": "🖱️",
+      "iconBg": "linear-gradient(135deg,#f0f0f0,#e8e8e8)",
+      "price": 299,
+      "stock": 6
+    },
+    {
+      "id": "si4",
+      "name": "Branded Cap",
+      "desc": "Maktab logosi bilan shlyapa",
+      "icon": "🧢",
+      "iconBg": "linear-gradient(135deg,#f0f0f0,#e8e8e8)",
+      "price": 299,
+      "stock": 0
+    },
+    {
+      "id": "si5",
+      "name": "USB Flash Drive",
+      "desc": "16 GB fleshka",
+      "icon": "💾",
+      "iconBg": "linear-gradient(135deg,#f0f0f0,#e8e8e8)",
+      "price": 299,
+      "stock": 8
+    },
+    {
+      "id": "si6",
+      "name": "Branded Thermos",
+      "desc": "Maktab logosi bilan termos",
+      "icon": "🥤",
+      "iconBg": "linear-gradient(135deg,#f0f0f0,#e8e8e8)",
+      "price": 349,
+      "stock": 5
+    },
+    {
+      "id": "si7",
+      "name": "Mouse",
+      "desc": "Maktab sichqonchasi",
+      "icon": "🖱️",
+      "iconBg": "linear-gradient(135deg,#f0f0f0,#e8e8e8)",
+      "price": 349,
+      "stock": 13
+    },
+    {
+      "id": "si8",
+      "name": "Keyboard",
+      "desc": "Maktab klaviaturasi",
+      "icon": "⌨️",
+      "iconBg": "linear-gradient(135deg,#f0f0f0,#e8e8e8)",
+      "price": 399,
+      "stock": 3
+    },
+    {
+      "id": "si9",
+      "name": "Sport formasi",
+      "desc": "Maktab logosi bilan sport formasi",
+      "icon": "👕",
+      "iconBg": "linear-gradient(135deg,#f0f0f0,#e8e8e8)",
+      "price": 499,
+      "stock": 5
+    },
+    {
+      "id": "si10",
+      "name": "Keyboard&Mouse",
+      "desc": "Klaviatura va sichqoncha to'plami",
+      "icon": "🖱️",
+      "iconBg": "linear-gradient(135deg,#f0f0f0,#e8e8e8)",
+      "price": 549,
+      "stock": 7
+    },
+    {
+      "id": "si11",
+      "name": "Wireless Keyboard & Mouse",
+      "desc": "Simlarsiz to'plam",
+      "icon": "⌨️",
+      "iconBg": "linear-gradient(135deg,#f0f0f0,#e8e8e8)",
+      "price": 599,
+      "stock": 0
+    },
+    {
+      "id": "si12",
+      "name": "AirPods Max",
+      "desc": "Premium quloqlik",
+      "icon": "🎧",
+      "iconBg": "linear-gradient(135deg,#f0f0f0,#e8e8e8)",
+      "price": 599,
+      "stock": 0
+    }
+  ],
+  "homeworks": [
+    {
+      "id": "hw1",
+      "subject": "Matematika",
+      "title": "Algebra masalalari",
+      "description": "Sinf va tenglamalar haqida 10 ta masala yeching.",
+      "deadline": "2026-09-02",
+      "teacherId": "u2",
+      "groupId": "g1",
+      "studentIds": [
+        "u3",
+        "u6",
+        "u7"
+      ],
+      "completedIds": []
+    },
+    {
+      "id": "hw2",
+      "subject": "Ona tili",
+      "title": "Insho yozish",
+      "description": "\"Mening maktabim\" mavzusida 200 so'zdan ortiq insho yozing.",
+      "deadline": "2026-09-02",
+      "teacherId": "u5",
+      "groupId": "g1",
+      "studentIds": [
+        "u3",
+        "u6",
+        "u7"
+      ],
+      "completedIds": [
+        "u3"
+      ]
+    },
+    {
+      "id": "hw3",
+      "subject": "Tarix",
+      "title": "Ma'ruza tayyorlash",
+      "description": "O'zbekiston mustaqilligi haqida 5 ta slayd tayyorlang.",
+      "deadline": "2026-09-02",
+      "teacherId": "u9",
+      "groupId": "g1",
+      "studentIds": [
+        "u3",
+        "u6",
+        "u7"
+      ],
+      "completedIds": []
+    },
+    {
+      "id": "hw4",
+      "subject": "Matematika",
+      "title": "Geometriya mashqlari",
+      "description": "Doiralar va burchaklar haqida 8 ta masala yeching.",
+      "deadline": "2026-09-02",
+      "teacherId": "u2",
+      "groupId": "g2",
+      "studentIds": [
+        "u8",
+        "u10"
+      ],
+      "completedIds": [
+        "u10"
+      ]
+    },
+    {
+      "id": "hw5",
+      "subject": "Ingliz tili",
+      "title": "Vocabulary list",
+      "description": "Learn 20 new English words and write sentences.",
+      "deadline": "2026-09-02",
+      "teacherId": "u2",
+      "groupId": "g2",
+      "studentIds": [
+        "u8",
+        "u10"
+      ],
+      "completedIds": []
+    }
+  ],
+  "payments": [
+    {
+      "id": "p1",
+      "studentId": "u3",
+      "month": "2026-08",
+      "amount": 500000,
+      "status": "paid",
+      "paidDate": "2026-08-01"
+    },
+    {
+      "id": "p2",
+      "studentId": "u6",
+      "month": "2026-08",
+      "amount": 500000,
+      "status": "paid",
+      "paidDate": "2026-08-03"
+    },
+    {
+      "id": "p3",
+      "studentId": "u7",
+      "month": "2026-08",
+      "amount": 500000,
+      "status": "unpaid",
+      "paidDate": ""
+    },
+    {
+      "id": "p4",
+      "studentId": "u8",
+      "month": "2026-08",
+      "amount": 400000,
+      "status": "partial",
+      "paidDate": "2026-08-05",
+      "paidAmount": 200000
+    }
+  ],
+  "ownedItems": [],
+  "tests": {
+    "Matematika": [
+      {
+        "q": "2 + 3 = ?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "12 × 5 = ?",
+        "options": [
+          "50",
+          "55",
+          "60",
+          "65"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "100 ÷ 4 = ?",
+        "options": [
+          "20",
+          "25",
+          "30",
+          "35"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "15 - 8 = ?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "9 × 9 = ?",
+        "options": [
+          "72",
+          "81",
+          "89",
+          "91"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "25 × 4 = ?",
+        "options": [
+          "80",
+          "90",
+          "100",
+          "110"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "144 ÷ 12 = ?",
+        "options": [
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "7 + 8 = ?",
+        "options": [
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "20 - 9 = ?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "6 × 7 = ?",
+        "options": [
+          "36",
+          "40",
+          "42",
+          "48"
+        ],
+        "correct": 2
+      }
+    ],
+    "Ona tili": [
+      {
+        "q": "\"Kitob\" so'zida nechta unli harf bor?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "1"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Jumlada fe'l qaysi o'rinda turadi?",
+        "options": [
+          "Boshida",
+          "Oxirida",
+          "O'rtada",
+          "Har qanday joyda"
+        ],
+        "correct": 3
+      },
+      {
+        "q": "Qaysi so'z to'g'ri yozilgan?",
+        "options": [
+          "Sprotnik",
+          "Sportnik",
+          "Sportunik",
+          "Spotrenik"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "O'zbek tilida nechta unli harf bor?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "\"Maktab\" so'zi otmi?",
+        "options": [
+          "Ha",
+          "Yo'q",
+          "Fe'l",
+          "Sifat"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Qo'shma so'z qaysi?",
+        "options": [
+          "Kitob",
+          "Maktab",
+          "Chevarlik",
+          "O'qituvchi"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Jumladagi ot nima?",
+        "options": [
+          "Katta",
+          "Yugurdi",
+          "Bolalar",
+          "Tez"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "\"Yaxshi\" so'zi nimani bildiradi?",
+        "options": [
+          "Sifat",
+          "Ot",
+          "Fe'l",
+          "Olmosh"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Birlik soni qaysi?",
+        "options": [
+          "Bir",
+          "Ikki",
+          "Uch",
+          "Hammasi"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "\"Erdagek\" so'zida nechta bo'g'in bor?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correct": 1
+      }
+    ],
+    "Tarix": [
+      {
+        "q": "O'zbekiston Mustaqilligi qachon?",
+        "options": [
+          "1990",
+          "1991",
+          "1992",
+          "1993"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Amir Temur qachon tug'ilgan?",
+        "options": [
+          "1330",
+          "1336",
+          "1340",
+          "1345"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Buyuk Ipak Yo'li qaysi davlat orqali?",
+        "options": [
+          "Xitoy",
+          "Hindiston",
+          "O'zbekiston",
+          "Turkiya"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Registon qaysi shaharda?",
+        "options": [
+          "Buxoro",
+          "Samarqand",
+          "Xiva",
+          "Qo'qon"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "O'zbekiston nechta viloyatdan iborat?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Beruniy qachon yashagan?",
+        "options": [
+          "900",
+          "973",
+          "1050",
+          "1100"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Alisher Navoiy qachon tug'ilgan?",
+        "options": [
+          "1410",
+          "1441",
+          "1460",
+          "1500"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Birinchi konstitutsiya qachon qabul qilindi?",
+        "options": [
+          "1978",
+          "1990",
+          "1992",
+          "1993"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Qadimgi Xiva qal'asi qachon qurilgan?",
+        "options": [
+          "5-asr",
+          "9-asr",
+          "12-asr",
+          "15-asr"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Temuriylar davlati markazi?",
+        "options": [
+          "Buxoro",
+          "Samarqand",
+          "Xiva",
+          "Qandahor"
+        ],
+        "correct": 1
+      }
+    ],
+    "Fizika": [
+      {
+        "q": "Yorug'lik tezligi?",
+        "options": [
+          "200 000",
+          "300 000",
+          "400 000",
+          "500 000"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Suvning qaynash harorati?",
+        "options": [
+          "90°C",
+          "95°C",
+          "100°C",
+          "110°C"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Yer kuchlanishi qancha?",
+        "options": [
+          "8.8",
+          "9.8",
+          "10.8",
+          "11.8"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "Eng katta sayyora?",
+        "options": [
+          "Yer",
+          "Mars",
+          "Yupiter",
+          "Saturn"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Ovoz suvda tezroqmi?",
+        "options": [
+          "Ha",
+          "Yo'q",
+          "Barobar",
+          "Depends"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Elektr toki birligi?",
+        "options": [
+          "Volt",
+          "Vatt",
+          "Amper",
+          "Om"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "Toroo'lik birligi?",
+        "options": [
+          "Kg",
+          "Metr",
+          "Sekund",
+          "Nyuton"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Quyosh energiyasi turi?",
+        "options": [
+          "Yadroviy",
+          "Kimyoviy",
+          "Elektr",
+          "Magnit"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "Harorat birligi?",
+        "options": [
+          "Fahrenheit",
+          "Kelvin",
+          "Celsius",
+          "Hammasi"
+        ],
+        "correct": 3
+      },
+      {
+        "q": "Gidrostatika qonuni kimniki?",
+        "options": [
+          "Nyuton",
+          "Arximed",
+          "Galiley",
+          "Eynshteyn"
+        ],
+        "correct": 1
+      }
+    ],
+    "Ingliz tili": [
+      {
+        "q": "\"Hello\" ning o'zbekchasi?",
+        "options": [
+          "Salom",
+          "Rahmat",
+          "Kechirasiz",
+          "Ha"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "\"Student\" nimani anglatadi?",
+        "options": [
+          "O'qituvchi",
+          "O'quvchi",
+          "Doktor",
+          "Ingener"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "\"Cat\" ning ko'p soni?",
+        "options": [
+          "Cats",
+          "Cates",
+          "Catses",
+          "Caties"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "\"Good morning\" qachon?",
+        "options": [
+          "Tushdan keyin",
+          "Kechqurun",
+          "Ertalab",
+          "Tungi"
+        ],
+        "correct": 2
+      },
+      {
+        "q": "\"Beautiful\" ning qarama-qarshisi?",
+        "options": [
+          "Pretty",
+          "Ugly",
+          "Nice",
+          "Good"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "\"Big\" ning sinonimi?",
+        "options": [
+          "Small",
+          "Large",
+          "Tiny",
+          "Short"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "\"Go\" ning o'tmish zamoni?",
+        "options": [
+          "Went",
+          "Goed",
+          "Goned",
+          "Going"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "\"She ___ a teacher\" bo'lish kerak?",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "correct": 0
+      },
+      {
+        "q": "\"Book\" ning ko'p soni?",
+        "options": [
+          "Bookes",
+          "Books",
+          "Bookies",
+          "Bookses"
+        ],
+        "correct": 1
+      },
+      {
+        "q": "\"Thank you\" ning javobi?",
+        "options": [
+          "Hello",
+          "OK",
+          "You're welcome",
+          "Yes"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  "testResults": [],
+  "settings": {
+    "schoolName": "Maktab 1"
+  },
+  "teacherCoins": [
+    {
+      "id": "tc1788367312131",
+      "teacherId": "u2",
+      "month": "2026-09",
+      "allocated": 1000,
+      "used": 2
+    }
+  ],
+  "teacherPayments": []
+}
