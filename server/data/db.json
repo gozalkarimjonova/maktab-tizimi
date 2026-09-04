@@ -4,7 +4,7 @@
       "id": "u1",
       "name": "Abdullayev Sardor",
       "phone": "+998901111111",
-      "password": "$2a$08$Rgc6IS5Kx2aQcfnZPU1KK.ozP4AzG5C.8axkpRQ96jkFVoz70Nd1K",
+      "password": "$2a$08$LEczaS19rd1ymeUTPcEXNuaynp/qFJLi37wg5ooi/6MKQNeBh8YQm",
       "role": "direktor",
       "avatar": "AS",
       "coins": 0
@@ -13,7 +13,7 @@
       "id": "u2",
       "name": "Karimova Nilufar",
       "phone": "+998902222222",
-      "password": "$2a$08$DcONX5hWW6NES4xsv8VvPOBezbS9qIYHpt4lfXq4M1Px771s0hT0q",
+      "password": "$2a$08$DzwGLDxcHHmOpAfkbczat.OclkoCpXAt6C25klMtHhkXYZNq6WrYK",
       "role": "oqituvchi",
       "avatar": "KN",
       "subject": "Matematika",
@@ -23,18 +23,18 @@
       "id": "u3",
       "name": "Abdullayev Sardor",
       "phone": "+998903333333",
-      "password": "$2a$08$ZAcVvDQH7MZ6gqmOs2EmPeMMxMSvTniCvDzXv8hcs6KZlDPshp2P6",
+      "password": "$2a$08$3kjk2z2LOUUan5J19S1N8uhjkG7EWeYJ9gIXXlVMPZXkR8hYTyybq",
       "role": "oquvchi",
       "avatar": "AS",
       "groupId": "g1",
       "className": "5-sinf",
-      "coins": 54
+      "coins": 50
     },
     {
       "id": "u4",
       "name": "Toshmatov Admin",
       "phone": "+998904444444",
-      "password": "$2a$08$ToWo7hmWaM8.6x7P8eiIYeIGFNX1kGgCn02vHZpklUqIP.c2YJUHm",
+      "password": "$2a$08$7z3Se31VI9QyIW73uC/0ue6gkUvzBy/in2bK00l6pmwOfsRY/uvpK",
       "role": "admin",
       "avatar": "TA",
       "coins": 0
@@ -43,7 +43,7 @@
       "id": "u5",
       "name": "Ergasheva Malika",
       "phone": "+998902222223",
-      "password": "$2a$08$fkYhKISQxfnJXWC.78KDw.hgZrDYyDPnL6uFhAeP.NdUMf39agxCG",
+      "password": "$2a$08$aimOYrbElxiA/cAnW/ID7u7ogjfROkskcc9/hy2fNyb8OkBvZU.fu",
       "role": "oqituvchi",
       "avatar": "EM",
       "subject": "Ona tili",
@@ -53,40 +53,40 @@
       "id": "u6",
       "name": "Toshmatov Temur",
       "phone": "+998903333334",
-      "password": "$2a$08$.V2nW5e8jhJ.zQkek1FEeeiNKibtDXM/Dh90B9kkMHLiEwMmYoz52",
+      "password": "$2a$08$ai/Hu95.bXWomIPNFy7/2e0XtaDCepArvsLjXC5HnhS59Y80eSYMi",
       "role": "oquvchi",
       "avatar": "TT",
       "groupId": "g1",
       "className": "5-sinf",
-      "coins": 31
+      "coins": 30
     },
     {
       "id": "u7",
       "name": "Karimova Nilufar",
       "phone": "+998903333335",
-      "password": "$2a$08$GMTkm0g7NLYle0xskfgYMOsZAxDJQBuaJuVQfst2w6lLFo.RlGNq.",
+      "password": "$2a$08$CYkhxguAdwBXdphSAXiOWeXyF9qxwQlFdYeTovU61.ed3JXNRgEfG",
       "role": "oquvchi",
       "avatar": "KN",
       "groupId": "g1",
       "className": "5-sinf",
-      "coins": 76
+      "coins": 75
     },
     {
       "id": "u8",
       "name": "Ergashev Jasur",
       "phone": "+998903333336",
-      "password": "$2a$08$7b4aioRZG0zVVgETPyXU9uUlydKsne7/YmFUfnzQB/SRkMVnEVtDK",
+      "password": "$2a$08$PbZL7ENk.21ymzCzk8TuMOVCKbG.sCrubpfKjJhvId1sHutLxMmu2",
       "role": "oquvchi",
       "avatar": "EJ",
       "groupId": "g2",
       "className": "6-sinf",
-      "coins": 21
+      "coins": 20
     },
     {
       "id": "u9",
       "name": "Karimova Sabohat",
       "phone": "+998902222224",
-      "password": "$2a$08$Xks4cO1yFT0Lkt4Ps8tqZ.KlKdR1xiwfjranUZOOLJW1cZGiXf1hS",
+      "password": "$2a$08$HmO873sctK5EVNKrKNkIseQLo1hBvWqX3mhU/xIT8Ijk98vT6sfmm",
       "role": "oqituvchi",
       "avatar": "KS",
       "subject": "Tarix",
@@ -96,7 +96,7 @@
       "id": "u10",
       "name": "Rahimov Bobur",
       "phone": "+998903333337",
-      "password": "$2a$08$JUYpP3Adn.Rs/x/J26GWx.3DpzWsELPKYRutR7HZGvey2md.1rUKK",
+      "password": "$2a$08$WHpWLFOg/MXyA/iKqAVTUOJHVgHQb.bMKLcdqWYSItQPTSlJ.oLqq",
       "role": "oquvchi",
       "avatar": "RB",
       "groupId": "g2",
@@ -107,7 +107,7 @@
       "id": "u11",
       "name": "Nazarova Dildora",
       "phone": "+998903333338",
-      "password": "$2a$08$jhUvXjEu6GegYCxTldDHO.vjSOnCtnsKXfQ.V/20ScdLoLmjlEA4W",
+      "password": "$2a$08$7408OLtxp48aOx3X8O670O5NbN7igw9bo5dIW3sUC6v0Jm/ct1zim",
       "role": "oquvchi",
       "avatar": "ND",
       "groupId": "g2",
@@ -118,7 +118,7 @@
       "id": "u12",
       "name": "Mirzoev Sardor",
       "phone": "+998903333339",
-      "password": "$2a$08$wcRBUSPOwov0cm1m66yJy.CeENP4BmextUMl.t3ZDD4wFdBOgVw7S",
+      "password": "$2a$08$5Q1rCDbtAnqUI8FpARmKSOv6iv.9sKsfv24eXlMmuYaveFyhSginu",
       "role": "oquvchi",
       "avatar": "MS",
       "groupId": "g2",
@@ -129,7 +129,7 @@
       "id": "u13",
       "name": "Aliyeva Malika",
       "phone": "+998903333340",
-      "password": "$2a$08$dHZAjF/v5l054.1eV3iIkeJZIunvTEPj58Mgl/Ox//P6bq/EX8MJG",
+      "password": "$2a$08$bn0QWApf/WREkfqix9CeOOcBtFWMgTNxRHj8TqLNHYMQr3b/nuiam",
       "role": "oquvchi",
       "avatar": "AM",
       "groupId": "g2",
@@ -140,7 +140,7 @@
       "id": "u14",
       "name": "Rustamov Oybek",
       "phone": "+998903333341",
-      "password": "$2a$08$te0oQiHcE.78NFZ.OfGGzOuT6P0elt1v7/7TiZxFydKjjXIzBsjam",
+      "password": "$2a$08$5UXXNsd1DVPbGNNP2dLbTewz7iaws2HYczj2sbB1sVos1gD37AeBm",
       "role": "oquvchi",
       "avatar": "RO",
       "groupId": "g2",
@@ -151,7 +151,7 @@
       "id": "u15",
       "name": "Xolmatov Otabek",
       "phone": "+998903333342",
-      "password": "$2a$08$soMvrRToKcWaZa38jbpJpOuzWNBrzQhQ8EhJrlqbeVTSF1QA//eUK",
+      "password": "$2a$08$bIqXmfyzO0UyLmluC5eyNue9chbR0GvGR5Pu0U.AGUXsQElSefxSq",
       "role": "oquvchi",
       "avatar": "XO",
       "groupId": "g1",
@@ -162,7 +162,7 @@
       "id": "u16",
       "name": "Jumaev Baxtiyor",
       "phone": "+998903333343",
-      "password": "$2a$08$cNcwn.ScfJc0astTsTUoDOcorTwGG5ZZhiTpimz7AuS2AasDf2RsC",
+      "password": "$2a$08$jLf3GFjM.NmuhAHRZENBMuPNT6Dsxwty4txgNooDn1PqahlHDc7nO",
       "role": "oquvchi",
       "avatar": "JB",
       "groupId": "g1",
@@ -173,7 +173,7 @@
       "id": "u17",
       "name": "Ismoilov Akbar",
       "phone": "+998903333344",
-      "password": "$2a$08$KthfIkchqimhuh9SIoUmWerFaqEKQefOk4B/SPg1.Xk/Eb3NsuvT2",
+      "password": "$2a$08$z07gvrR5D/rP/N2B4GqIXOi8vdG5l.wv1dSVhYRnoAqP6NPg/ufBG",
       "role": "oquvchi",
       "avatar": "IA",
       "groupId": "g1",
@@ -184,7 +184,7 @@
       "id": "u18",
       "name": "Kamoliddinov Shoxruh",
       "phone": "+998903333345",
-      "password": "$2a$08$Go6p9dufQ5Hs8GiXidwlZuidlwyQwnJHyxRWgjJJ7u7ndn33aKF6q",
+      "password": "$2a$08$1a2.D8ti1mFyz.szWzbwk.4JH0htbQVUo2H88R7ywwRIRYThQt5iO",
       "role": "oquvchi",
       "avatar": "KS",
       "groupId": "g2",
@@ -195,7 +195,7 @@
       "id": "u19",
       "name": "Toirov Mironshoh",
       "phone": "+998903333346",
-      "password": "$2a$08$5wE8TnAws5f89dMyQVYGIeBXFzVVGkZjMUEMAlNYc.Vs.frtC.LWy",
+      "password": "$2a$08$dtzucNnNCu.HTrba8emHHe.otTh0HMoZBgfhEPKdGAQ1WmHh4wiD2",
       "role": "oquvchi",
       "avatar": "TM",
       "groupId": "g1",
@@ -209,7 +209,7 @@
       "name": "5-B guruhi",
       "className": "5-sinf",
       "teacherId": "u2",
-      "schedule": "Dushanba, Chorshanba 15:00",
+      "schedule": "Dushanba, Chorshanba 08:30-09:20",
       "room": "A3"
     },
     {
@@ -217,8 +217,40 @@
       "name": "6-G guruhi",
       "className": "6-sinf",
       "teacherId": "u2",
-      "schedule": "Seshanba, Juma 15:10",
+      "schedule": "Seshanba, Juma 09:30-10:20",
       "room": "A4"
+    },
+    {
+      "id": "g3",
+      "name": "5-A guruhi",
+      "className": "5-sinf",
+      "teacherId": "u5",
+      "schedule": "Dushanba, Payshanba 10:30-11:20",
+      "room": "B1"
+    },
+    {
+      "id": "g4",
+      "name": "6-B guruhi",
+      "className": "6-sinf",
+      "teacherId": "u5",
+      "schedule": "Seshanba, Juma 10:30-11:20",
+      "room": "B2"
+    },
+    {
+      "id": "g5",
+      "name": "7-A guruhi",
+      "className": "7-sinf",
+      "teacherId": "u9",
+      "schedule": "Dushanba, Chorshanba 11:30-12:20",
+      "room": "C1"
+    },
+    {
+      "id": "g6",
+      "name": "7-B guruhi",
+      "className": "7-sinf",
+      "teacherId": "u9",
+      "schedule": "Payshanba, Juma 12:30-13:20",
+      "room": "C2"
     }
   ],
   "topics": [
@@ -319,708 +351,640 @@
       "date": ""
     }
   ],
-  "attendance": {
-    "2026-08-03": {
-      "u3": "present",
-      "u6": "present",
-      "u7": "present"
-    },
-    "2026-08-31": {
-      "u8": "present"
-    }
-  },
+  "attendance": {},
   "grades": [
     {
-      "id": "g1788366789876h0jw",
+      "id": "g1788538968223pu8v",
       "studentId": "u3",
       "subject": "Matematika",
-      "value": 4,
+      "value": 5,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g17883667898761p0i",
+      "id": "g1788538968223udvs",
       "studentId": "u3",
       "subject": "Ona tili",
       "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876n36o",
+      "id": "g1788538968223qfxo",
       "studentId": "u3",
       "subject": "Tarix",
-      "value": 3,
+      "value": 4,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876mjvl",
+      "id": "g1788538968223jcyf",
       "studentId": "u3",
       "subject": "Fizika",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g1788538968223p5tg",
+      "studentId": "u3",
+      "subject": "Ingliz tili",
       "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876h2dz",
-      "studentId": "u3",
-      "subject": "Ingliz tili",
-      "value": 5,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g17883667898765i6i",
+      "id": "g17885389682232vi0",
       "studentId": "u6",
       "subject": "Matematika",
       "value": 4,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876yla4",
+      "id": "g1788538968223cb45",
       "studentId": "u6",
       "subject": "Ona tili",
-      "value": 3,
+      "value": 4,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876hq4z",
+      "id": "g1788538968223gpqc",
       "studentId": "u6",
       "subject": "Tarix",
-      "value": 4,
+      "value": 5,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g17883667898762ha1",
+      "id": "g1788538968223qfdu",
       "studentId": "u6",
       "subject": "Fizika",
       "value": 5,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876mbv4",
+      "id": "g1788538968223rray",
       "studentId": "u6",
       "subject": "Ingliz tili",
       "value": 5,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876kceb",
+      "id": "g1788538968223k1d7",
       "studentId": "u7",
       "subject": "Matematika",
-      "value": 5,
+      "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876bvpg",
+      "id": "g1788538968223phw6",
       "studentId": "u7",
       "subject": "Ona tili",
-      "value": 4,
+      "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876ifyo",
+      "id": "g17885389682233bi4",
       "studentId": "u7",
       "subject": "Tarix",
       "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g17883667898764cx3",
+      "id": "g17885389682232og8",
       "studentId": "u7",
       "subject": "Fizika",
-      "value": 5,
+      "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g17883667898765ypk",
+      "id": "g17885389682239f7i",
       "studentId": "u7",
       "subject": "Ingliz tili",
       "value": 4,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876tcpb",
+      "id": "g17885389682238vnn",
       "studentId": "u8",
       "subject": "Matematika",
-      "value": 4,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g17883667898765hvq",
-      "studentId": "u8",
-      "subject": "Ona tili",
-      "value": 4,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g1788366789876vnot",
-      "studentId": "u8",
-      "subject": "Tarix",
-      "value": 4,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g1788366789876r9lc",
-      "studentId": "u8",
-      "subject": "Fizika",
       "value": 5,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876yup9",
+      "id": "g17885389682235zv4",
       "studentId": "u8",
-      "subject": "Ingliz tili",
-      "value": 3,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g1788366789876t4cg",
-      "studentId": "u10",
-      "subject": "Matematika",
-      "value": 3,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g1788366789876a310",
-      "studentId": "u10",
-      "subject": "Ona tili",
-      "value": 5,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g178836678987612ky",
-      "studentId": "u10",
-      "subject": "Tarix",
-      "value": 4,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g1788366789876ctej",
-      "studentId": "u10",
-      "subject": "Fizika",
-      "value": 4,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g17883667898760mc8",
-      "studentId": "u10",
-      "subject": "Ingliz tili",
-      "value": 4,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g1788366789876qsm5",
-      "studentId": "u11",
-      "subject": "Matematika",
-      "value": 4,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g1788366789876k5tb",
-      "studentId": "u11",
       "subject": "Ona tili",
       "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876znll",
-      "studentId": "u11",
+      "id": "g1788538968223hjmq",
+      "studentId": "u8",
       "subject": "Tarix",
       "value": 5,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876x8u0",
-      "studentId": "u11",
+      "id": "g1788538968223d7i4",
+      "studentId": "u8",
       "subject": "Fizika",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g1788538968223pzys",
+      "studentId": "u8",
+      "subject": "Ingliz tili",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g1788538968223khsi",
+      "studentId": "u10",
+      "subject": "Matematika",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g1788538968223lkk1",
+      "studentId": "u10",
+      "subject": "Ona tili",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g1788538968223bbqa",
+      "studentId": "u10",
+      "subject": "Tarix",
       "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g17883667898761cl7",
-      "studentId": "u11",
+      "id": "g1788538968223id6s",
+      "studentId": "u10",
+      "subject": "Fizika",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g1788538968223myoc",
+      "studentId": "u10",
       "subject": "Ingliz tili",
       "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876djis",
-      "studentId": "u12",
+      "id": "g1788538968223bu2e",
+      "studentId": "u11",
       "subject": "Matematika",
       "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876cewp",
-      "studentId": "u12",
+      "id": "g1788538968223x3bc",
+      "studentId": "u11",
       "subject": "Ona tili",
       "value": 4,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876xdcq",
-      "studentId": "u12",
+      "id": "g1788538968223j93s",
+      "studentId": "u11",
       "subject": "Tarix",
       "value": 5,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g17883667898768ugo",
-      "studentId": "u12",
+      "id": "g17885389682237e8i",
+      "studentId": "u11",
       "subject": "Fizika",
       "value": 4,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876jnah",
-      "studentId": "u12",
+      "id": "g1788538968223pk6u",
+      "studentId": "u11",
       "subject": "Ingliz tili",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g1788538968223px25",
+      "studentId": "u12",
+      "subject": "Matematika",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g17885389682233na7",
+      "studentId": "u12",
+      "subject": "Ona tili",
       "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g178836678987635wx",
+      "id": "g1788538968223hoq6",
+      "studentId": "u12",
+      "subject": "Tarix",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g17885389682235goc",
+      "studentId": "u12",
+      "subject": "Fizika",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g17885389682237a9v",
+      "studentId": "u12",
+      "subject": "Ingliz tili",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g1788538968223aucr",
       "studentId": "u13",
       "subject": "Matematika",
       "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876sd3c",
+      "id": "g1788538968223y435",
       "studentId": "u13",
       "subject": "Ona tili",
-      "value": 5,
+      "value": 4,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876xhnc",
+      "id": "g17885389682231z77",
       "studentId": "u13",
       "subject": "Tarix",
       "value": 5,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876cnii",
+      "id": "g17885389682236f5b",
       "studentId": "u13",
       "subject": "Fizika",
       "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876g5jc",
+      "id": "g1788538968223dddp",
       "studentId": "u13",
       "subject": "Ingliz tili",
       "value": 5,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876i199",
+      "id": "g178853896822380rn",
       "studentId": "u14",
       "subject": "Matematika",
-      "value": 3,
+      "value": 5,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876owsk",
+      "id": "g1788538968223wjad",
       "studentId": "u14",
       "subject": "Ona tili",
       "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876kev3",
+      "id": "g1788538968223anzt",
       "studentId": "u14",
       "subject": "Tarix",
       "value": 4,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876tvam",
+      "id": "g17885389682232ci6",
       "studentId": "u14",
       "subject": "Fizika",
       "value": 5,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876yxhf",
+      "id": "g1788538968223vgia",
       "studentId": "u14",
       "subject": "Ingliz tili",
-      "value": 4,
+      "value": 5,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876k7nm",
+      "id": "g1788538968223aofy",
       "studentId": "u15",
       "subject": "Matematika",
       "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876069f",
+      "id": "g1788538968223wgzi",
       "studentId": "u15",
       "subject": "Ona tili",
       "value": 4,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g178836678987698n9",
+      "id": "g1788538968223m6yg",
       "studentId": "u15",
       "subject": "Tarix",
-      "value": 4,
+      "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876jqij",
+      "id": "g1788538968223cbz4",
       "studentId": "u15",
       "subject": "Fizika",
-      "value": 3,
+      "value": 4,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g17883667898768naz",
+      "id": "g1788538968223ql4n",
       "studentId": "u15",
       "subject": "Ingliz tili",
-      "value": 5,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g1788366789876bxwq",
-      "studentId": "u16",
-      "subject": "Matematika",
-      "value": 5,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g1788366789876hqyn",
-      "studentId": "u16",
-      "subject": "Ona tili",
       "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876qgmr",
+      "id": "g17885389682237g1e",
       "studentId": "u16",
-      "subject": "Tarix",
-      "value": 3,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g17883667898763c52",
-      "studentId": "u16",
-      "subject": "Fizika",
-      "value": 5,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g17883667898765dtw",
-      "studentId": "u16",
-      "subject": "Ingliz tili",
-      "value": 3,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g1788366789876l9kz",
-      "studentId": "u17",
       "subject": "Matematika",
       "value": 4,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g178836678987633ln",
+      "id": "g1788538968223ksp8",
+      "studentId": "u16",
+      "subject": "Ona tili",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g1788538968223j9z4",
+      "studentId": "u16",
+      "subject": "Tarix",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g1788538968223r0yz",
+      "studentId": "u16",
+      "subject": "Fizika",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g1788538968223p9z1",
+      "studentId": "u16",
+      "subject": "Ingliz tili",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g1788538968223hpie",
+      "studentId": "u17",
+      "subject": "Matematika",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g1788538968223u3a1",
       "studentId": "u17",
       "subject": "Ona tili",
       "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g17883667898762pxq",
+      "id": "g17885389682233ubn",
       "studentId": "u17",
       "subject": "Tarix",
-      "value": 3,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g17883667898768p2f",
-      "studentId": "u17",
-      "subject": "Fizika",
       "value": 5,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g178836678987685e9",
+      "id": "g1788538968223mzhy",
+      "studentId": "u17",
+      "subject": "Fizika",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g1788538968223azbt",
       "studentId": "u17",
       "subject": "Ingliz tili",
       "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876qgoh",
+      "id": "g1788538968223jq2z",
       "studentId": "u18",
       "subject": "Matematika",
       "value": 5,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876u45c",
+      "id": "g1788538968223mw15",
       "studentId": "u18",
       "subject": "Ona tili",
+      "value": 5,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g1788538968223geuo",
+      "studentId": "u18",
+      "subject": "Tarix",
       "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g17883667898762xdo",
+      "id": "g1788538968223dsbo",
       "studentId": "u18",
-      "subject": "Tarix",
+      "subject": "Fizika",
       "value": 4,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g17883667898760g8q",
-      "studentId": "u18",
-      "subject": "Fizika",
-      "value": 3,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g1788366789876ieaa",
+      "id": "g1788538968223k98d",
       "studentId": "u18",
       "subject": "Ingliz tili",
-      "value": 3,
+      "value": 5,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876uliw",
+      "id": "g1788538968223wtxa",
       "studentId": "u19",
       "subject": "Matematika",
-      "value": 5,
+      "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876nmg9",
+      "id": "g1788538968223x3wr",
       "studentId": "u19",
       "subject": "Ona tili",
       "value": 3,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
     },
     {
-      "id": "g1788366789876eov3",
+      "id": "g178853896822384r4",
       "studentId": "u19",
       "subject": "Tarix",
-      "value": 3,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g1788366789876ix72",
-      "studentId": "u19",
-      "subject": "Fizika",
-      "value": 5,
-      "note": "",
-      "teacherId": "u2",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "g1788366789876h2w0",
-      "studentId": "u19",
-      "subject": "Ingliz tili",
       "value": 4,
       "note": "",
       "teacherId": "u2",
-      "date": "2026-09-02"
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g17885389682236jp4",
+      "studentId": "u19",
+      "subject": "Fizika",
+      "value": 4,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
+    },
+    {
+      "id": "g1788538968223ahqy",
+      "studentId": "u19",
+      "subject": "Ingliz tili",
+      "value": 3,
+      "note": "",
+      "teacherId": "u2",
+      "date": "2026-09-04"
     }
   ],
-  "coinHistory": [
-    {
-      "id": "ch1788367317863k14f",
-      "userId": "u3",
-      "amount": 1,
-      "reason": "Davomat: 2026-08-03",
-      "date": "2026-08-03",
-      "type": "earn"
-    },
-    {
-      "id": "ch1788367327341fujm",
-      "userId": "u3",
-      "amount": 1,
-      "reason": "Davomat: 2026-08-03",
-      "date": "2026-08-03",
-      "type": "earn"
-    },
-    {
-      "id": "ch17883673294908pzo",
-      "userId": "u6",
-      "amount": 1,
-      "reason": "Davomat: 2026-08-03",
-      "date": "2026-08-03",
-      "type": "earn"
-    },
-    {
-      "id": "ch1788367332043ie7g",
-      "userId": "u7",
-      "amount": 1,
-      "reason": "Davomat: 2026-08-03",
-      "date": "2026-08-03",
-      "type": "earn"
-    },
-    {
-      "id": "ch1788530821056t",
-      "userId": "u2",
-      "amount": 2,
-      "reason": "Abdullayev Sardor ga berildi: Vazifa uchun",
-      "date": "2026-09-04",
-      "type": "give",
-      "toStudentId": "u3"
-    },
-    {
-      "id": "ch1788530821056s",
-      "userId": "u3",
-      "amount": 2,
-      "reason": "Karimova Nilufar dan: Vazifa uchun",
-      "date": "2026-09-04",
-      "type": "earn",
-      "fromTeacherId": "u2"
-    },
-    {
-      "id": "ch1788530894442mrvy",
-      "userId": "u8",
-      "amount": 1,
-      "reason": "Davomat: 2026-08-31",
-      "date": "2026-08-31",
-      "type": "earn"
-    }
-  ],
+  "coinHistory": [],
   "shopItems": [
     {
       "id": "si1",
@@ -1137,7 +1101,7 @@
       "subject": "Matematika",
       "title": "Algebra masalalari",
       "description": "Sinf va tenglamalar haqida 10 ta masala yeching.",
-      "deadline": "2026-09-02",
+      "deadline": "2026-09-04",
       "teacherId": "u2",
       "groupId": "g1",
       "studentIds": [
@@ -1152,7 +1116,7 @@
       "subject": "Ona tili",
       "title": "Insho yozish",
       "description": "\"Mening maktabim\" mavzusida 200 so'zdan ortiq insho yozing.",
-      "deadline": "2026-09-02",
+      "deadline": "2026-09-04",
       "teacherId": "u5",
       "groupId": "g1",
       "studentIds": [
@@ -1169,7 +1133,7 @@
       "subject": "Tarix",
       "title": "Ma'ruza tayyorlash",
       "description": "O'zbekiston mustaqilligi haqida 5 ta slayd tayyorlang.",
-      "deadline": "2026-09-02",
+      "deadline": "2026-09-04",
       "teacherId": "u9",
       "groupId": "g1",
       "studentIds": [
@@ -1184,7 +1148,7 @@
       "subject": "Matematika",
       "title": "Geometriya mashqlari",
       "description": "Doiralar va burchaklar haqida 8 ta masala yeching.",
-      "deadline": "2026-09-02",
+      "deadline": "2026-09-04",
       "teacherId": "u2",
       "groupId": "g2",
       "studentIds": [
@@ -1200,7 +1164,7 @@
       "subject": "Ingliz tili",
       "title": "Vocabulary list",
       "description": "Learn 20 new English words and write sentences.",
-      "deadline": "2026-09-02",
+      "deadline": "2026-09-04",
       "teacherId": "u2",
       "groupId": "g2",
       "studentIds": [
@@ -1761,15 +1725,5 @@
   "testResults": [],
   "settings": {
     "schoolName": "Maktab 1"
-  },
-  "teacherCoins": [
-    {
-      "id": "tc1788367312131",
-      "teacherId": "u2",
-      "month": "2026-09",
-      "allocated": 1000,
-      "used": 2
-    }
-  ],
-  "teacherPayments": []
+  }
 }

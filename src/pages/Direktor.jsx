@@ -41,9 +41,8 @@ export default function Direktor() {
         { id:'teachers', icon:'fa-chalkboard-teacher', labelKey:'navTeachers' },
         { id:'groups', icon:'fa-layer-group', labelKey:'navGroups' },
         { sectionKey:'sectionExtra' },
-        { id:'testratings', icon:'fa-chart-bar', labelKey:'Test Reytingi' },
-        { id:'teacherpayments', icon:'fa-money-check-alt', labelKey:'O\'qituvchi To\'lov' },
-        { id:'schedule', icon:'fa-calendar-alt', labelKey:'Dars Jadvali' },
+        { id:'testratings', icon:'fa-chart-bar', labelKey:'navTestRating' },
+        { id:'schedule', icon:'fa-calendar-alt', labelKey:'navSchedule' },
         { sectionKey:'sectionPersonal' },
         { id:'profile', icon:'fa-user-circle', labelKey:'navProfile' },
     ]
@@ -79,18 +78,18 @@ export default function Direktor() {
     const renderDashboard = () => (
         <div>
             <div className="stats-grid">
-                <div className="stat-card purple"><div className="stat-icon"><i className="fas fa-user-graduate"></i></div><div className="stat-value">{students.length}</div><div className="stat-label">O'quvchilar</div></div>
-                <div className="stat-card green"><div className="stat-icon"><i className="fas fa-chalkboard-teacher"></i></div><div className="stat-value">{teachers.length}</div><div className="stat-label">O'qituvchilar</div></div>
-                <div className="stat-card orange"><div className="stat-icon"><i className="fas fa-layer-group"></i></div><div className="stat-value">{groups.length}</div><div className="stat-label">Guruhlar</div></div>
-                <div className="stat-card blue"><div className="stat-icon"><i className="fas fa-clipboard-check"></i></div><div className="stat-value">{presentCount}/{students.length}</div><div className="stat-label">Bugun kelgan</div></div>
-                <div className="stat-card red"><div className="stat-icon"><i className="fas fa-star"></i></div><div className="stat-value">{grades.length}</div><div className="stat-label">Jami baholar</div></div>
-                <div className="stat-card purple"><div className="stat-icon"><i className="fas fa-file-alt"></i></div><div className="stat-value">{testResults.length}</div><div className="stat-label">Test natijalari</div></div>
+                <div className="stat-card purple"><div className="stat-icon"><i className="fas fa-user-graduate"></i></div><div className="stat-value">{students.length}</div><div className="stat-label">{t('dirStatStudents')}</div></div>
+                <div className="stat-card green"><div className="stat-icon"><i className="fas fa-chalkboard-teacher"></i></div><div className="stat-value">{teachers.length}</div><div className="stat-label">{t('dirStatTeachers')}</div></div>
+                <div className="stat-card orange"><div className="stat-icon"><i className="fas fa-layer-group"></i></div><div className="stat-value">{groups.length}</div><div className="stat-label">{t('dirStatGroups')}</div></div>
+                <div className="stat-card blue"><div className="stat-icon"><i className="fas fa-clipboard-check"></i></div><div className="stat-value">{presentCount}/{students.length}</div><div className="stat-label">{t('dirStatToday')}</div></div>
+                <div className="stat-card red"><div className="stat-icon"><i className="fas fa-star"></i></div><div className="stat-value">{grades.length}</div><div className="stat-label">{t('dirStatGrades')}</div></div>
+                <div className="stat-card purple"><div className="stat-icon"><i className="fas fa-file-alt"></i></div><div className="stat-value">{testResults.length}</div><div className="stat-label">{t('dirStatTests')}</div></div>
             </div>
             {/* O'quvchilar soni va baholari */}
             <div className="card" style={{marginTop:20}}>
-                <div className="card-header"><h2><i className="fas fa-user-graduate" style={{color:'#7b68ee'}}></i> O'quvchilar Statistikasi</h2></div>
+                <div className="card-header"><h2><i className="fas fa-user-graduate" style={{color:'#7b68ee'}}></i> {t('dirStudentStats')}</h2></div>
                 <table>
-                    <thead><tr><th>#</th><th>O'quvchi</th><th>Sinf</th><th>Guruh</th><th>O'rtacha baho</th><th>Testlar</th><th>Coin</th></tr></thead>
+                    <thead><tr><th>#</th><th>{t('dirStudent')}</th><th>{t('dirClassName')}</th><th>{t('dirGroup')}</th><th>{t('dirAvgGrade')}</th><th>{t('dirTests')}</th><th>{t('coins')}</th></tr></thead>
                     <tbody>{students.map((s, idx) => {
                         const g = groups.find(x => x.id === s.groupId)
                         const myGrades = grades.filter(g => g.studentId === s.id)
@@ -119,9 +118,9 @@ export default function Direktor() {
 
     const renderAttendance = () => (
         <div className="card">
-            <div className="card-header"><h2><i className="fas fa-clipboard-check" style={{color:'#7b68ee'}}></i> Kunlik Davomat — {today}</h2>
+            <div className="card-header"><h2><i className="fas fa-clipboard-check" style={{color:'#7b68ee'}}></i> {t('dirDailyAtt')} — {today}</h2>
                 <select value={attGroup} onChange={e => setAttGroup(e.target.value)} style={{padding:'8px 12px',border:'2px solid #e0e0e0',borderRadius:8,fontSize:13}}>
-                    <option value="all">Barcha guruhlar</option>
+                    <option value="all">{t('dirAllGroups')}</option>
                     {groups.map(g => <option key={g.id} value={g.id}>{g.name}</option>)}
                 </select>
             </div>
@@ -137,8 +136,8 @@ export default function Direktor() {
                             </div>
                         ) : (
                             <div className="att-btns">
-                                <button className="att-btn p" onClick={() => markAtt(s.id, 'present')}>✅ Bor</button>
-                                <button className="att-btn a" onClick={() => markAtt(s.id, 'absent')}>❌ Yo'q</button>
+                                <button className="att-btn p" onClick={() => markAtt(s.id, 'present')}>✅ {t('dirPresent')}</button>
+                                <button className="att-btn a" onClick={() => markAtt(s.id, 'absent')}>❌ {t('dirAbsent')}</button>
                             </div>
                         )}
                     </div>
@@ -149,9 +148,9 @@ export default function Direktor() {
 
     const renderGrades = () => (
         <div className="card">
-            <div className="card-header"><h2><i className="fas fa-star" style={{color:'#ffc107'}}></i> Baholar</h2></div>
+            <div className="card-header"><h2><i className="fas fa-star" style={{color:'#ffc107'}}></i> {t('navGrades')}</h2></div>
             <table>
-                <thead><tr><th>O'quvchi</th><th>Sinf</th><th>Matematika</th><th>Ona tili</th><th>Tarix</th><th>Fizika</th><th>Ingliz tili</th><th>O'rtacha</th></tr></thead>
+                <thead><tr><th>{t('dirStudent')}</th><th>{t('dirClassName')}</th><th>Matematika</th><th>Ona tili</th><th>Tarix</th><th>Fizika</th><th>Ingliz tili</th><th>{t('dirAvg')}</th></tr></thead>
                 <tbody>{students.map(s => {
                     const subs = ['Matematika','Ona tili','Tarix','Fizika','Ingliz tili']
                     const myGrades = grades.filter(g => g.studentId === s.id)
@@ -170,9 +169,9 @@ export default function Direktor() {
 
     const renderStudents = () => (
         <div className="card">
-            <div className="card-header"><h2><i className="fas fa-user-graduate" style={{color:'#7b68ee'}}></i> O'quvchilar</h2>
-                <button className="btn btn-primary btn-sm" onClick={() => setModal('addStudent')}><i className="fas fa-plus"></i> Qo'shish</button></div>
-            <table><thead><tr><th></th><th>Ism</th><th>Telefon</th><th>Guruh</th><th>Sinf</th><th>Coin</th><th>Amallar</th></tr></thead>
+            <div className="card-header"><h2><i className="fas fa-user-graduate" style={{color:'#7b68ee'}}></i> {t('navStudents')}</h2>
+                <button className="btn btn-primary btn-sm" onClick={() => setModal('addStudent')}><i className="fas fa-plus"></i> {t('dirAddBtn')}</button></div>
+            <table><thead><tr><th></th><th>{t('dirName')}</th><th>{t('dirPhone')}</th><th>{t('dirGroup')}</th><th>{t('dirClassName')}</th><th>{t('coins')}</th><th>{t('dirActions')}</th></tr></thead>
             <tbody>{students.map(s => {
                 const g = groups.find(x => x.id === s.groupId)
                 return <tr key={s.id}>
@@ -187,16 +186,16 @@ export default function Direktor() {
 
     const renderTeachers = () => (
         <div className="card">
-            <div className="card-header"><h2><i className="fas fa-chalkboard-teacher" style={{color:'#28a745'}}></i> O'qituvchilar</h2>
-                <button className="btn btn-primary btn-sm" onClick={() => setModal('addTeacher')}><i className="fas fa-plus"></i> Qo'shish</button></div>
-            <table><thead><tr><th></th><th>Ism</th><th>Telefon</th><th>Fan</th><th>Guruhlar</th><th>Amallar</th></tr></thead>
-            <tbody>{teachers.map(t => {
-                const tGroups = groups.filter(g => g.teacherId === t.id)
-                return <tr key={t.id}>
-                    <td><div className="user-avatar" style={{width:38,height:38,fontSize:13,background:'#d4edda',color:'#28a745'}}>{t.avatar}</div></td>
-                    <td><b>{t.name}</b></td><td>{t.phone}</td><td><span className="badge badge-primary">{t.subject||'-'}</span></td>
+            <div className="card-header"><h2><i className="fas fa-chalkboard-teacher" style={{color:'#28a745'}}></i> {t('navTeachers')}</h2>
+                <button className="btn btn-primary btn-sm" onClick={() => setModal('addTeacher')}><i className="fas fa-plus"></i> {t('dirAddBtn')}</button></div>
+            <table><thead><tr><th></th><th>{t('dirName')}</th><th>{t('dirPhone')}</th><th>{t('dirSubject')}</th><th>{t('dirGroups')}</th><th>{t('dirActions')}</th></tr></thead>
+            <tbody>{teachers.map(teach => {
+                const tGroups = groups.filter(g => g.teacherId === teach.id)
+                return <tr key={teach.id}>
+                    <td><div className="user-avatar" style={{width:38,height:38,fontSize:13,background:'#d4edda',color:'#28a745'}}>{teach.avatar}</div></td>
+                    <td><b>{teach.name}</b></td><td>{teach.phone}</td><td><span className="badge badge-primary">{teach.subject||'-'}</span></td>
                     <td>{tGroups.map(g => <span key={g.id} className="badge badge-info" style={{marginRight:4}}>{g.name}</span>)}</td>
-                    <td><button className="btn btn-primary btn-sm" onClick={() => setModal({type:'editTeacher', data:t})}><i className="fas fa-edit"></i></button> <button className="btn btn-danger btn-sm" onClick={async () => { await api.deleteUser(t.id); refreshAll(); }}><i className="fas fa-trash"></i></button></td>
+                    <td><button className="btn btn-primary btn-sm" onClick={() => setModal({type:'editTeacher', data:teach})}><i className="fas fa-edit"></i></button> <button className="btn btn-danger btn-sm" onClick={async () => { await api.deleteUser(teach.id); refreshAll(); }}><i className="fas fa-trash"></i></button></td>
                 </tr>
             })}</tbody></table>
         </div>
@@ -204,9 +203,9 @@ export default function Direktor() {
 
     const renderGroups = () => (
         <div className="card">
-            <div className="card-header"><h2><i className="fas fa-layer-group" style={{color:'#17a2b8'}}></i> Guruhlar</h2>
-                <button className="btn btn-primary btn-sm" onClick={() => setModal('addGroup')}><i className="fas fa-plus"></i> Qo'shish</button></div>
-            <table><thead><tr><th>Nomi</th><th>Sinf</th><th>O'qituvchi</th><th>O'quvchilar</th><th>Jadval</th><th>Amallar</th></tr></thead>
+            <div className="card-header"><h2><i className="fas fa-layer-group" style={{color:'#17a2b8'}}></i> {t('navGroups')}</h2>
+                <button className="btn btn-primary btn-sm" onClick={() => setModal('addGroup')}><i className="fas fa-plus"></i> {t('dirAddBtn')}</button></div>
+            <table><thead><tr><th>{t('name')}</th><th>{t('dirClassName')}</th><th>{t('dirTeacher')}</th><th>{t('dirStatStudents')}</th><th>{t('dirSchedule')}</th><th>{t('dirActions')}</th></tr></thead>
             <tbody>{groups.map(g => {
                 const teacher = users.find(u => u.id === g.teacherId)
                 const sc = students.filter(s => s.groupId === g.id).length
@@ -235,12 +234,12 @@ export default function Direktor() {
         }).sort((a,b) => b.avgPct - a.avgPct)
 
         return <div className="card" style={{overflowX:'auto'}}>
-            <div className="card-header"><h2><i className="fas fa-chart-bar" style={{color:'#7b68ee'}}></i> Test Reytingi — Har kuni</h2></div>
+            <div className="card-header"><h2><i className="fas fa-chart-bar" style={{color:'#7b68ee'}}></i> {t('dirTestRatingDaily')}</h2></div>
             {testResults.length > 0 ? (
                 <table>
                     <thead><tr><th>#</th><th>O'quvchi</th>
                         {subjects.map(sub => <th key={sub} style={{textAlign:'center',minWidth:80}}>{sub}</th>)}
-                        <th style={{textAlign:'center'}}>O'rtacha</th>
+                        <th style={{textAlign:'center'}}>{t('dirAvg')}</th>
                     </tr></thead>
                     <tbody>{studentRatings.map((sr, idx) => (
                         <tr key={sr.student.id} style={idx < 3 ? {background:'#f0fff4'} : {}}>
@@ -262,85 +261,81 @@ export default function Direktor() {
             ) : (
                 <div style={{textAlign:'center',padding:40,color:'#888'}}>
                     <i className="fas fa-chart-bar" style={{fontSize:40,marginBottom:12,display:'block'}}></i>
-                    Hali test topshirilmagan
+                    {t('dirNoTests')}
                 </div>
             )}
         </div>
     }
 
-    // ==================== TEACHER PAYMENTS (SALARY) ====================
-    const renderTeacherPayments = () => {
-        const paidCount = teacherPayments.filter(p => p.status === 'paid').length
-        const unpaidCount = teacherPayments.filter(p => p.status === 'unpaid').length
-        const totalAmount = teacherPayments.reduce((s,p) => s + (p.amount||0), 0)
+    // ==================== SCHEDULE ====================
+    const schedDays = ['Dushanba','Seshanba','Chorshanba','Payshanba','Juma']
+    const schedHours = ['08:30','09:30','10:30','11:30','12:30','13:30']
+    const dayColors = ['#6366f1','#10b981','#f59e0b','#3b82f6','#ef4444']
 
-        return <div>
-            <div className="payments-header">
-                <div><h2><i className="fas fa-money-check-alt"></i> O'qituvchilar Oylik To'lovi</h2></div>
-                <button className="btn btn-primary" onClick={() => setModal('addTeacherPayment')}><i className="fas fa-plus"></i> To'lov qo'shish</button>
-            </div>
-            <div className="payments-summary">
-                <div className="payment-stat paid"><div className="ps-value">{paidCount}</div><div className="ps-label">To'langan</div></div>
-                <div className="payment-stat unpaid"><div className="ps-value">{unpaidCount}</div><div className="ps-label">To'lanmagan</div></div>
-                <div className="payment-stat"><div className="ps-value" style={{color:'#7b68ee'}}>{totalAmount.toLocaleString()} so'm</div><div className="ps-label">Jami</div></div>
-            </div>
-            <div className="card">
-                <table>
-                    <thead><tr><th>O'qituvchi</th><th>Fan</th><th>Oy</th><th>Summa</th><th>Holat</th><th>Amallar</th></tr></thead>
-                    <tbody>{teacherPayments.map(p => {
-                        const t = users.find(u => u.id === p.teacherId)
-                        return <tr key={p.id}>
-                            <td><div style={{display:'flex',alignItems:'center',gap:8}}>
-                                <div className="user-avatar" style={{width:32,height:32,fontSize:11,background:'#d4edda',color:'#28a745'}}>{t?.avatar||'?'}</div>
-                                <b>{t?.name||'-'}</b>
-                            </div></td>
-                            <td><span className="badge badge-primary">{t?.subject||'-'}</span></td>
-                            <td>{p.month}</td>
-                            <td><b>{(p.amount||0).toLocaleString()} so'm</b></td>
-                            <td><span className={`badge badge-${p.status==='paid'?'success':'danger'}`}>{p.status==='paid'?'✅ To\'langan':'❌ To\'lanmagan'}</span></td>
-                            <td>
-                                {p.status !== 'paid' && <button className="btn btn-success btn-sm" onClick={async () => { await api.payTeacherPayment(p.id, 'online'); refreshAll(); showToast('To\'lov amalga oshirildi!'); }}>✅ To'lash</button>}
-                                <button className="btn btn-danger btn-sm" onClick={async () => { await api.deleteTeacherPayment(p.id); refreshAll(); }} style={{marginLeft:4}}><i className="fas fa-trash"></i></button>
-                            </td>
+    const renderSchedule = () => (
+        <div>
+            <div className="card" style={{overflowX:'auto'}}>
+                <div className="card-header"><h2><i className="fas fa-calendar-week" style={{color:'#3b82f6'}}></i> {t('dirScheduleTitle')}</h2></div>
+                <table style={{minWidth:800}}>
+                    <thead><tr>
+                        <th style={{width:80}}></th>
+                        {schedDays.map((d,i) => <th key={d} style={{textAlign:'center',background:dayColors[i],color:'#fff',padding:'10px 8px',fontSize:12,fontWeight:700}}>{d}</th>)}
+                    </tr></thead>
+                    <tbody>{schedHours.map((h) => (
+                        <tr key={h}>
+                            <td style={{textAlign:'center',fontWeight:700,color:'#6366f1',fontSize:12,background:'#f8fafc'}}>{h}</td>
+                            {schedDays.map((d,di) => {
+                                const slot = groups.find(g => {
+                                    const sched = g.schedule || ''
+                                    return sched.includes(d) && sched.includes(h)
+                                })
+                                if (slot) {
+                                    const teach = users.find(u => u.id === slot.teacherId)
+                                    return <td key={d} style={{padding:6,border:'1px solid #f1f5f9'}}>
+                                        <div style={{padding:8,borderRadius:8,background:dayColors[di]+'11',borderLeft:'3px solid '+dayColors[di]}}>
+                                            <div style={{fontWeight:700,fontSize:11,color:dayColors[di]}}>{slot.name}</div>
+                                            <div style={{fontSize:10,color:'#64748b',marginTop:2}}>{teach?.name||'-'}</div>
+                                            <div style={{fontSize:10,color:'#94a3b8',marginTop:1}}><i className="fas fa-map-marker-alt" style={{marginRight:3}}></i>{slot.room||'-'}</div>
+                                        </div>
+                                    </td>
+                                }
+                                return <td key={d} style={{padding:6,border:'1px solid #f1f5f9'}}></td>
+                            })}
                         </tr>
-                    })}</tbody>
+                    ))}</tbody>
                 </table>
             </div>
-        </div>
-    }
 
-    // ==================== SCHEDULE ====================
-    const renderSchedule = () => (
-        <div className="card">
-            <div className="card-header"><h2><i className="fas fa-calendar-alt" style={{color:'#17a2b8'}}></i> Dars Jadvali — O'qituvchilar</h2></div>
-            <div style={{padding:16}}>
-                {teachers.map(t => {
-                    const tGroups = groups.filter(g => g.teacherId === t.id)
-                    return <div key={t.id} style={{marginBottom:20,padding:20,borderRadius:12,border:'2px solid #f0f0f0',background:'#fff'}}>
-                        <div style={{display:'flex',alignItems:'center',gap:12,marginBottom:16}}>
-                            <div className="user-avatar" style={{width:44,height:44,fontSize:14,background:'#d4edda',color:'#28a745'}}>{t.avatar}</div>
-                            <div>
-                                <div style={{fontWeight:700,fontSize:16}}>{t.name}</div>
-                                <div style={{fontSize:13,color:'#888'}}>📧 {t.subject||'-'}</div>
+            <div className="card" style={{marginTop:20}}>
+                <div className="card-header"><h2><i className="fas fa-chalkboard-teacher" style={{color:'#10b981'}}></i> {t('navTeachers')} — {t('dirSchedule')}</h2></div>
+                <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fill,minmax(320px,1fr))',gap:16,padding:16}}>
+                    {teachers.map(teach => {
+                        const tGroups = groups.filter(g => g.teacherId === teach.id)
+                        return <div key={teach.id} style={{padding:20,borderRadius:14,border:'1px solid #e2e8f0',background:'#fff'}}>
+                            <div style={{display:'flex',alignItems:'center',gap:12,marginBottom:16}}>
+                                <div className="user-avatar" style={{width:48,height:48,fontSize:15,background:'#d4edda',color:'#10b981'}}>{teach.avatar}</div>
+                                <div>
+                                    <div style={{fontWeight:700,fontSize:15}}>{teach.name}</div>
+                                    <div style={{fontSize:12,color:'#94a3b8'}}>{teach.subject||'-'}</div>
+                                </div>
                             </div>
-                        </div>
-                        {tGroups.length > 0 ? (
-                            <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fill,minmax(250px,1fr))',gap:12}}>
-                                {tGroups.map(g => {
-                                    const stCount = students.filter(s => s.groupId === g.id).length
-                                    return <div key={g.id} style={{padding:14,borderRadius:10,background:'#f8f9fa',border:'1px solid #e0e0e0'}}>
-                                        <div style={{fontWeight:700,color:'#7b68ee',marginBottom:6}}><i className="fas fa-layer-group" style={{marginRight:6}}></i>{g.name}</div>
-                                        <div style={{fontSize:13,color:'#666',marginBottom:4}}><i className="fas fa-clock" style={{marginRight:6}}></i>{g.schedule||'Jadval belgilanmagan'}</div>
-                                        <div style={{fontSize:13,color:'#666',marginBottom:4}}><i className="fas fa-map-marker-alt" style={{marginRight:6}}></i>Xona: {g.room||'-'}</div>
-                                        <div style={{fontSize:13,color:'#666'}}><i className="fas fa-users" style={{marginRight:6}}></i>{stCount} nafar o'quvchi</div>
+                            {tGroups.length > 0 ? tGroups.map(g => {
+                                const stCount = students.filter(s => s.groupId === g.id).length
+                                return <div key={g.id} style={{padding:12,marginBottom:8,borderRadius:10,background:'#f8fafc',border:'1px solid #e2e8f0'}}>
+                                    <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:6}}>
+                                        <span style={{fontWeight:700,color:'#6366f1',fontSize:13}}><i className="fas fa-layer-group" style={{marginRight:6}}></i>{g.name}</span>
+                                        <span className="badge badge-info" style={{fontSize:10}}>{stCount} {t('dirNafar')}</span>
                                     </div>
-                                })}
-                            </div>
-                        ) : (
-                            <div style={{color:'#888',fontSize:14}}>Guruhlar topilmadi</div>
-                        )}
-                    </div>
-                })}
+                                    <div style={{fontSize:12,color:'#64748b',display:'flex',flexDirection:'column',gap:4}}>
+                                        <span><i className="fas fa-clock" style={{marginRight:6,width:14,color:'#6366f1'}}></i>{g.schedule||t('schedule')}</span>
+                                        <span><i className="fas fa-map-marker-alt" style={{marginRight:6,width:14,color:'#6366f1'}}></i>{t('room')}: {g.room||'-'}</span>
+                                        <span><i className="fas fa-graduation-cap" style={{marginRight:6,width:14,color:'#6366f1'}}></i>{g.className||'-'}</span>
+                                    </div>
+                                </div>
+                            }) : <div style={{color:'#94a3b8',fontSize:13,padding:8}}>{t('dirNoGroups')}</div>}
+                        </div>
+                    })}
+                </div>
             </div>
         </div>
     )
@@ -367,7 +362,6 @@ export default function Direktor() {
         teachers: renderTeachers,
         groups: renderGroups,
         testratings: renderTestRatings,
-        teacherpayments: renderTeacherPayments,
         schedule: renderSchedule,
         profile: renderProfile
     }
@@ -381,28 +375,6 @@ export default function Direktor() {
                 </>
             )}
         </Layout>
-        {modal === 'addTeacherPayment' && <Modal onClose={() => setModal(null)} title="O'qituvchiga to'lov qo'shish">
-            <div style={{display:'flex',flexDirection:'column',gap:12}}>
-                <label style={{fontWeight:600,fontSize:13}}>O'qituvchi</label>
-                <select id="tpTeacher" style={{padding:'10px 14px',border:'2px solid #e0e0e0',borderRadius:10,fontSize:14}}>
-                    {teachers.map(t => <option key={t.id} value={t.id}>{t.name} - {t.subject}</option>)}
-                </select>
-                <label style={{fontWeight:600,fontSize:13}}>Oy</label>
-                <input id="tpMonth" type="month" defaultValue={currentMonth} style={{padding:'10px 14px',border:'2px solid #e0e0e0',borderRadius:10,fontSize:14}} />
-                <label style={{fontWeight:600,fontSize:13}}>Summa (so'm)</label>
-                <input id="tpAmount" type="number" defaultValue={1500000} style={{padding:'10px 14px',border:'2px solid #e0e0e0',borderRadius:10,fontSize:14}} />
-                <button className="btn btn-primary" onClick={async () => {
-                    const teacherId = document.getElementById('tpTeacher').value
-                    const month = document.getElementById('tpMonth').value
-                    const amount = parseInt(document.getElementById('tpAmount').value)
-                    if (!teacherId || !month || !amount) return alert('Malumotlarni toldiring!')
-                    await api.addTeacherPayment({ teacherId, month, amount })
-                    setModal(null)
-                    refreshAll()
-                    showToast('Tolov qoshildi!')
-                }}><i className="fas fa-plus"></i> Qo'shish</button>
-            </div>
-        </Modal>}
         {modal === 'addStudent' && <Modal onClose={() => setModal(null)} title="O'quvchi qo'shish">
             <div style={{display:'flex',flexDirection:'column',gap:12}}>
                 <input id="sName" placeholder="Ism familiya" style={{padding:'10px 14px',border:'2px solid #e0e0e0',borderRadius:10}} />

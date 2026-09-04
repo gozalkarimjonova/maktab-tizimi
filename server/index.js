@@ -56,8 +56,12 @@ function initDB() {
             { id:'u19', name:'Toirov Mironshoh', phone:'+998903333346', password: bcrypt.hashSync('stu136',8), role:'oquvchi', avatar:'TM', groupId:'g1', className:'5-sinf', coins:35 },
         ],
         groups: [
-            { id:'g1', name:'5-B guruhi', className:'5-sinf', teacherId:'u2', schedule:'Dushanba, Chorshanba 15:00', room:'A3' },
-            { id:'g2', name:'6-G guruhi', className:'6-sinf', teacherId:'u2', schedule:'Seshanba, Juma 15:10', room:'A4' },
+            { id:'g1', name:'5-B guruhi', className:'5-sinf', teacherId:'u2', schedule:'Dushanba, Chorshanba 08:30-09:20', room:'A3' },
+            { id:'g2', name:'6-G guruhi', className:'6-sinf', teacherId:'u2', schedule:'Seshanba, Juma 09:30-10:20', room:'A4' },
+            { id:'g3', name:'5-A guruhi', className:'5-sinf', teacherId:'u5', schedule:'Dushanba, Payshanba 10:30-11:20', room:'B1' },
+            { id:'g4', name:'6-B guruhi', className:'6-sinf', teacherId:'u5', schedule:'Seshanba, Juma 10:30-11:20', room:'B2' },
+            { id:'g5', name:'7-A guruhi', className:'7-sinf', teacherId:'u9', schedule:'Dushanba, Chorshanba 11:30-12:20', room:'C1' },
+            { id:'g6', name:'7-B guruhi', className:'7-sinf', teacherId:'u9', schedule:'Payshanba, Juma 12:30-13:20', room:'C2' },
         ],
         topics: [
             { id:'t1', groupId:'g1', title:'Tenglamalar asoslari', order:1, status:'completed', date:'2026-08-20' },
@@ -710,5 +714,19 @@ app.put('/api/settings', auth, (req, res) => {
     res.json({ success: true });
 });
 
+// ==================== SERVE STATIC FILES (Production) ====================
+const DIST_DIR = path.join(__dirname, '..', 'dist');
+if (fs.existsSync(DIST_DIR)) {
+    app.use(express.static(DIST_DIR));
+    app.get('*', (req, res) => {
+        if (!req.path.startsWith('/api')) {
+            res.sendFile(path.join(DIST_DIR, 'index.html'));
+        }
+    });
+}
+
 // ==================== START SERVER ====================
-app.listen(PORT, () => console.log(`✅ Backend server running on http://localhost:${PORT}`));
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`✅ Backend server running on http://localhost:${PORT}`);
+    console.log(`🌐 Also available on your local network`);
+});
