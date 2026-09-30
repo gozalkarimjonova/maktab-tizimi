@@ -1,0 +1,1 @@
+import{j as i}from"./index-CbLzZv_2.js";import{u as n,a as c,A as u}from"./useAdminRefresh-97QwxSQb.js";import"./api-BImbCsbJ.js";function p(){const r=n(),{rows:s,loading:o,error:e,refresh:t}=c("users"),a=async()=>{await t(),await(r==null?void 0:r())};return i.jsx(u,{collection:"users",rows:s,refresh:a,loading:o,error:e})}export{p as default};
