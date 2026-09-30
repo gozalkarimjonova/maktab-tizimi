@@ -1,29 +1,90 @@
 const API_URL = '/api'
+async function getDataApiUrl() {
+    try {
+        const response = await fetch(`/data-server-port.json?t=${Date.now()}`, { cache: 'no-store' })
+        if (response.ok) {
+            const { port } = await response.json()
+            if (Number.isInteger(port)) return `${window.location.protocol}//${window.location.hostname}:${port}`
+        }
+    } catch { /* use the default if the app is not served by Vite */ }
+    return `${window.location.protocol}//${window.location.hostname}:4000`
+}
+
+function normalizeUser(user) {
+    const role = { student:'oquvchi', teacher:'oqituvchi', parent:'parent', admin:'admin' }[user.role] || user.role
+    const name = [user.name, user.surname].filter(Boolean).join(' ').trim()
+    const { password, ...safeUser } = user
+    return { ...safeUser, name, role, avatar: user.avatar || name.split(/\s+/).map(part => part[0]).join('').slice(0, 2).toUpperCase(), className: user.className || user.class || '' }
+}
+
+async function dataRequest(path, options = {}) {
+    const apiUrl = await getDataApiUrl()
+    const response = await fetch(`${apiUrl}${path}`, { ...options, headers: { 'Content-Type': 'application/json', ...options.headers } })
+    const data = await response.json().catch(() => ({}))
+    if (!response.ok) return { error: data.message || 'So‘rov bajarilmadi' }
+    return data
+}
 
 async function request(path, options = {}) {
     const token = localStorage.getItem('token')
+    if (token?.startsWith('jsondb:')) return dataRequest(path, options)
     const headers = { 'Content-Type': 'application/json', ...options.headers }
     if (token) headers['Authorization'] = `Bearer ${token}`
     const res = await fetch(`${API_URL}${path}`, { ...options, headers })
-    if (res.status === 401) {
+    if (res.status === 401 && token) {
         localStorage.removeItem('token')
         localStorage.removeItem('user')
         window.location.href = '/login'
         return
     }
-    return res.json()
+    const data = await res.json().catch(() => ({}))
+    if (!res.ok) return { error: data.error || 'So‘rovni bajarib bo‘lmadi' }
+    return data
 }
 
 export const api = {
     // Auth
-    login: (phone, password) => request('/auth/login', { method: 'POST', body: JSON.stringify({ phone, password }) }),
+    login: async (phone, password) => {
+        try {
+            const users = await dataRequest('/users')
+            if (!Array.isArray(users)) return { error: users?.error || 'Foydalanuvchilar ro‘yxatini yuklab bo‘lmadi' }
+            const cleanPhone = value => String(value || '').replace(/\D/g, '')
+            const normalizedPhone = cleanPhone(phone)
+            if (!normalizedPhone || !password) return { error: 'Telefon raqam yoki parol noto‘g‘ri' }
+            const matched = users.find(user => cleanPhone(user.phone) === normalizedPhone && user.password === password)
+            if (!matched) return { error: 'Telefon raqam yoki parol noto‘g‘ri' }
+            return { token: `jsondb:${matched.id}`, user: normalizeUser(matched) }
+        } catch {
+            return { error: 'Serverga ulanib bo‘lmadi. JSON Server ishga tushganini tekshiring.' }
+        }
+    },
     changePassword: (currentPassword, newPassword) => request('/auth/change-password', { method: 'POST', body: JSON.stringify({ currentPassword, newPassword }) }),
 
     // Users
-    getUsers: () => request('/users'),
+    getUsers: async () => {
+        const token = localStorage.getItem('token')
+        const result = token?.startsWith('jsondb:') ? await dataRequest('/users') : await request('/users')
+        return Array.isArray(result) ? result.map(normalizeUser) : result
+    },
+    getCollection: async (collection) => {
+        const result = await dataRequest(`/${collection}`)
+        if (collection === 'users' && Array.isArray(result)) return result.map(({ password, ...user }) => user)
+        return result
+    },
+    createCollectionItem: (collection, data) => dataRequest(`/${collection}`, { method: 'POST', body: JSON.stringify(data) }),
+    updateCollectionItem: (collection, id, data) => dataRequest(`/${collection}/${id}`, { method: 'PATCH', body: JSON.stringify(data) }),
+    deleteCollectionItem: (collection, id) => dataRequest(`/${collection}/${id}`, { method: 'DELETE' }),
     getUser: (id) => request(`/users/${id}`),
-    createUser: (data) => request('/users', { method: 'POST', body: JSON.stringify(data) }),
-    updateUser: (id, data) => request(`/users/${id}`, { method: 'PUT', body: JSON.stringify(data) }),
+    createUser: (data) => {
+        const { name = '', role, ...rest } = data
+        const [first, ...surname] = name.trim().split(/\s+/)
+        return request('/users', { method: 'POST', body: JSON.stringify({ ...rest, name: first, surname: surname.join(' '), role: { oquvchi:'student', oqituvchi:'teacher' }[role] || role }) })
+    },
+    updateUser: (id, data) => {
+        const { name = '', role, ...rest } = data
+        const [first, ...surname] = name.trim().split(/\s+/)
+        return request(`/users/${id}`, { method: 'PATCH', body: JSON.stringify({ ...rest, name: first, surname: surname.join(' '), role: { oquvchi:'student', oqituvchi:'teacher' }[role] || role }) })
+    },
     deleteUser: (id) => request(`/users/${id}`, { method: 'DELETE' }),
 
     // Groups

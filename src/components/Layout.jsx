@@ -8,7 +8,7 @@ export default function Layout({ children, navItems, title, teacherCoins }) {
     const { user, logout } = useContext(AuthContext)
     const { lang, switchLang, t } = useLang()
     const location = useLocation()
-    const [dark, setDark] = useState(localStorage.getItem('dark') === 'true')
+    const [dark, setDark] = useState(localStorage.getItem('theme') === 'dark')
     const [sidebarCoins, setSidebarCoins] = useState(0)
 
     useEffect(() => {
@@ -22,7 +22,7 @@ export default function Layout({ children, navItems, title, teacherCoins }) {
     const toggleDark = () => {
         const newDark = !dark
         setDark(newDark)
-        localStorage.setItem('dark', newDark)
+        localStorage.setItem('theme', newDark ? 'dark' : 'light')
         document.body.classList.toggle('dark', newDark)
     }
 

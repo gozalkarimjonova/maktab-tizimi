@@ -35,6 +35,8 @@ function initDB() {
             { id:'u17', name:'Ismoilov Akbar', phone:'+998903333344', password: bcrypt.hashSync('stu134',8), role:'oquvchi', avatar:'IA', groupId:'g1', className:'5-sinf', coins:30 },
             { id:'u18', name:'Kamoliddinov Shoxruh', phone:'+998903333345', password: bcrypt.hashSync('stu135',8), role:'oquvchi', avatar:'KS', groupId:'g2', className:'6-sinf', coins:50 },
             { id:'u19', name:'Toirov Mironshoh', phone:'+998903333346', password: bcrypt.hashSync('stu136',8), role:'oquvchi', avatar:'TM', groupId:'g1', className:'5-sinf', coins:35 },
+            { id:'u20', name:'Karimov Anvar', phone:'+998905555551', email:'anvar@gmail.com', password:bcrypt.hashSync('anvar123',8), role:'parent', avatar:'KA', coins:0 },
+            { id:'u21', name:'Abdullayeva Aziza', phone:'+998905555552', email:'aziza@gmail.com', password:bcrypt.hashSync('aziza123',8), role:'parent', avatar:'AA', coins:0 },
         ],
         groups: [
             { id:'g1', name:'5-B guruhi', className:'5-sinf', teacherId:'u2', schedule:'Dushanba, Chorshanba 08:30-09:20', room:'A3' },
@@ -164,33 +166,37 @@ app.post('/api/auth/login', (req, res) => {
 // ==================== USERS ====================
 app.get('/api/users', auth, (req, res) => {
     const d = getDB();
-    res.json(d.users.map(u => ({ id:u.id, name:u.name, phone:u.phone, role:u.role, avatar:u.avatar, coins:u.coins, subject:u.subject, groupId:u.groupId, className:u.className })));
+    res.json(d.users.map(u => ({ id:u.id, name:u.name, phone:u.phone, email:u.email, role:u.role, avatar:u.avatar, coins:u.coins, averageScore:u.averageScore, subject:u.subject, groupId:u.groupId, className:u.className })));
 });
 
 app.get('/api/users/:id', auth, (req, res) => {
     const d = getDB();
     const u = d.users.find(x => x.id === req.params.id);
     if (!u) return res.status(404).json({ error: 'Not found' });
-    res.json({ id:u.id, name:u.name, phone:u.phone, role:u.role, avatar:u.avatar, coins:u.coins, subject:u.subject, groupId:u.groupId, className:u.className });
+    res.json({ id:u.id, name:u.name, phone:u.phone, email:u.email, role:u.role, avatar:u.avatar, coins:u.coins, averageScore:u.averageScore, subject:u.subject, groupId:u.groupId, className:u.className });
 });
 
 app.post('/api/users', auth, (req, res) => {
     const d = getDB();
     if (req.user.role !== 'direktor' && req.user.role !== 'admin') return res.status(403).json({ error: 'Forbidden' });
-    const { name, phone, password, role, groupId, className, subject } = req.body;
+    const { name, phone, email, password, role, groupId, className, subject } = req.body;
+    if (!name?.trim() || !phone?.trim() || !password) return res.status(400).json({ error:'Name, phone and password are required' });
+    if (d.users.some(u => u.phone === phone)) return res.status(409).json({ error:'This phone number is already registered' });
     const id = 'u'+Date.now();
-    const avatar = name.split(' ').map(w=>w[0]).join('').substring(0,2).toUpperCase();
-    d.users.push({ id, name, phone, password: bcrypt.hashSync(password||'123456',8), role: role||'oquvchi', avatar, coins:0, groupId, className, subject });
-    res.json({ id, name, phone, role, avatar });
+    const avatar = name.trim().split(' ').map(w=>w[0]).join('').substring(0,2).toUpperCase();
+    d.users.push({ id, name:name.trim(), phone:phone.trim(), email, password:bcrypt.hashSync(password,8), role:role||'oquvchi', avatar, coins:0, groupId, className, subject });
+    res.json({ id, name, phone, email, role, avatar });
 });
 
 app.put('/api/users/:id', auth, (req, res) => {
     const d = getDB();
     const idx = d.users.findIndex(u => u.id === req.params.id);
     if (idx < 0) return res.status(404).json({ error: 'Not found' });
-    const { name, phone, password, groupId, className, subject, coins } = req.body;
+    const { name, phone, email, password, groupId, className, subject, coins } = req.body;
+    if (phone && d.users.some((u, i) => i !== idx && u.phone === phone)) return res.status(409).json({ error:'This phone number is already registered' });
     if (name) { d.users[idx].name = name; d.users[idx].avatar = name.split(' ').map(w=>w[0]).join('').substring(0,2).toUpperCase(); }
     if (phone) d.users[idx].phone = phone;
+    if (email !== undefined) d.users[idx].email = email;
     if (password) d.users[idx].password = bcrypt.hashSync(password, 8);
     if (groupId !== undefined) d.users[idx].groupId = groupId;
     if (className !== undefined) d.users[idx].className = className;
